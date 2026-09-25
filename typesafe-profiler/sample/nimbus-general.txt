@@ -1,0 +1,59 @@
+[2024-03-11 09:12:44] tinytools-bot#0000: **Deploy finished** — `api-gateway@2.14.3` → production. 42 checks passed, 0 failed. Commit `8f2c1de` by mara_k. Build 04:51 UTC. [view run](https://ci.nimbus.dev/runs/88213)
+[2024-03-11 09:14:02] devonw#0000: morning! did the gateway deploy go out? my staging calls are 502ing since like 8:40
+[2024-03-11 09:15:19] mara_k#0000: It went out at 09:12, so it can't be the cause of something that started at 8:40. What does the response body say?
+[2024-03-11 09:17:31] devonw#0000: just the nginx html, no upstream headers. i can paste the full curl -v if that helps? sorry, i'm probably missing something obvious
+[2024-03-11 09:18:47] priya.r#0000: Paste the `upstream` line from the gateway log instead. If it says `connect() failed (111)`, the load balancer pool is still pointed at the retired task set.
+[2024-03-11 09:20:12] devonw#0000: it does say connection refused. how do i check what the pool points at
+[2024-03-11 09:21:58] mara_k#0000: `aws ecs describe-services --cluster staging --services api-gateway --query 'services[0].taskDefinition'`. If it isn't `:412`, the service never drained. The drain window is 30s, not 0, so a fast deploy can leave the target group half-registered before the new tasks are healthy.
+[2024-03-11 09:23:06] devonw#0000: it's on :407 😬
+[2024-03-11 09:23:44] kestrel#0000: so staging has been broken for forty minutes and nobody noticed because we let a bot report a green deploy. third time this quarter. the deploy pipeline is a liability and everyone here knows it.
+[2024-03-11 09:24:29] priya.r#0000: The bot reported the checks it ran. It never claimed the target group drained. Those are different assertions.
+[2024-03-11 09:26:53] kestrel#0000: then the checks are worthless. i'm tired of doing archaeology on our own infrastructure every time someone ships a one-line config change.
+[2024-03-11 09:27:41] mara_k#0000: The gap is real and Kestrel is right that it bit us. The health check hits `/healthz` on the old task, which is still up, so it passes. I'll add a post-deploy assertion on target-group health. Filing it now.
+[2024-03-11 09:29:15] nova_lyn#0000: omg this thread is a whole crime scene 🔥 but also mara you're a legend
+[2024-03-11 09:31:02] mara_k#0000: Fix is in #412: after the deploy, poll `describe-target-health` until every target reports `healthy`, otherwise fail the run. That would have caught :407 within about twenty seconds.
+[2024-03-11 09:33:48] devonw#0000: confirmed working now, 200s across the board. thanks both 🙏 also ty priya, the log line tip is going straight in my notes
+[2024-03-11 09:35:26] priya.r#0000: The general version: when a deploy looks green and the app looks down, check the layer that hands traffic over, not the layer that builds the artifact.
+[2024-03-11 09:40:07] sam_ito#0000: saving that one. fourth time this month i've debugged something that turned out to be a registration race and i'd like it to be the last
+[2024-03-11 09:42:33] mara_k#0000: Postmortem draft is in the wiki. Blameless. Three action items: the post-deploy health assertion, the drain window documented in the runbook, and an alert when any target stays `unhealthy` for more than sixty seconds.
+[2024-03-11 14:02:11] gift_nitro_helper#0000: 🎉 **DISCORD IS GIVING AWAY NITRO FOR 3 MONTHS** 🎉 Claim yours before the counter runs out → https://dlscord-nitro-gifts.ru/claim?id=88214 (only 200 left!!)
+[2024-03-11 14:03:40] priya.r#0000: That's a phishing domain. `dlscord` with a lowercase L. Reported and banned.
+[2024-03-11 14:05:22] nova_lyn#0000: i almost clicked it 😭 ty priya
+[2024-03-11 14:06:58] sam_ito#0000: third one this week. they're scraping the member list from somewhere and the copy is getting better.
+[2024-03-11 14:08:14] mara_k#0000: Turn on 2FA and audit Authorized Apps. If anyone did click and typed credentials, rotate the password and any token that was reachable from that session today, not tomorrow.
+[2024-03-12 13:10:05] priya.r#0000: Question for the room: are we keeping the append-only event log for the billing service, or migrating to CRUD tables with an audit table alongside? I want a decision by Friday.
+[2024-03-12 13:14:37] mara_k#0000: Append-only, and I don't think it's close. Billing is the one place where 'what did we believe on the 3rd' is a real question. Reconstructing that from an audit table means every read replays the history in application code anyway, except now the replay is untested and lives in five different call sites.
+[2024-03-12 13:17:52] priya.r#0000: The audit table can carry `valid_from` / `valid_to` and answer the same question with a range scan. Cheaper to operate, and every engineer here already knows SQL. The event log needs a projection pipeline that exactly two of us have touched, which is why the projection broke last month.
+[2024-03-12 13:20:18] mara_k#0000: Cheaper until the first backfill or the first schema change. Then you're writing migration scripts against history that's already been rewritten in place. The log makes that a replay, which is the one operation we can actually verify.
+[2024-03-12 13:22:44] priya.r#0000: Fair. But the projection bug silently dropped 4,000 invoices for six days and nobody noticed, because the projection has no schema and no constraints. An audit table would have refused the write outright. That failure mode is not hypothetical to me.
+[2024-03-12 13:24:09] mara_k#0000: That's a real point and I don't have a good answer for it. What if the projections get a typed contract and a row-count parity check against the log, and the check pages on-call? That addresses your failure mode without giving up replay.
+[2024-03-12 13:26:31] priya.r#0000: Then I'll write it up as: keep the log, add a typed projection contract, add the parity check. I can live with that if the check actually pages and isn't just a dashboard nobody opens.
+[2024-03-12 13:29:55] devonw#0000: genuinely learning a lot from this thread. can someone explain what a projection is in one sentence? i've seen the word in the repo for months and just nodded along
+[2024-03-12 13:31:12] mara_k#0000: It's a read model built by replaying events in order — a table shaped for queries instead of for writes. If it's wrong, you rebuild it from the log instead of repairing it in place. The tradeoff is that the rebuild has to be deterministic, which is exactly what Priya is asking us to enforce.
+[2024-03-12 13:32:40] devonw#0000: ok that's much less scary than i thought. thanks
+[2024-03-12 13:35:03] kestrel#0000: we are two weeks from the compliance deadline and we're debating architecture in a discord channel. priya, you've been 'deciding by friday' for a month. either you own the decision or you don't. this is not a hard call.
+[2024-03-12 13:37:21] priya.r#0000: I said Friday because that's when the decision is due. Nothing about that is ambiguous, and the two of us just converged on an answer in fifteen minutes.
+[2024-03-12 13:38:47] kestrel#0000: it's ambiguous when nobody can tell whether you've decided. this is why nothing ships here. i've raised the same complaint three times and it goes nowhere, so frankly i've stopped expecting it to.
+[2024-03-12 13:41:14] nova_lyn#0000: kestrel you ok? that was a lot for a tuesday 😅
+[2024-03-12 13:43:02] kestrel#0000: I'm fine. I'm just the only one here who seems to care that we miss dates.
+[2024-03-13 08:52:19] sam_ito#0000: sorry for the radio silence yesterday. i've been running on about three hours of sleep since the on-call rotation started and it's catching up with me
+[2024-03-13 08:54:41] sam_ito#0000: honestly not sure how much longer i can keep doing this. some mornings i wake up and the idea of opening the laptop makes me feel physically sick, and it stopped being about the work a while ago
+[2024-03-13 09:01:07] devonw#0000: that sounds really rough sam. is there anything i can take off your plate this week? i can own the on-call handoff doc if that helps at all
+[2024-03-13 09:03:52] mara_k#0000: Seconding Devon. Also, the rotation is two people for a service that pages at 3am twice a week. That's a staffing problem, not a you problem. I'll raise it with Lena today whether or not you want me to.
+[2024-03-13 09:06:28] priya.r#0000: You can hand me the migration review. I have capacity Thursday and Friday.
+[2024-03-13 09:08:14] sam_ito#0000: thanks. i don't want to make it a whole thing. it's just been a long stretch
+[2024-03-13 09:11:36] sam_ito#0000: some days it feels like the only thing i'm good for is answering pages, and when it's quiet i don't know what i'm for. anyway. sorry. ignore me
+[2024-03-13 09:14:02] devonw#0000: not ignoring you. genuinely glad you said something.
+[2024-03-13 09:20:47] kestrel#0000: can we keep the channel on topic. if you need time off, take time off, but the rest of us still have deadlines.
+[2024-03-13 09:22:19] priya.r#0000: Kestrel. Not here.
+[2024-03-13 09:30:05] nova_lyn#0000: sam if you want to grab coffee off-channel this week i'm around ☕ no agenda, we can talk about literally anything else
+[2024-03-13 09:33:41] mara_k#0000: Sam — the assistance programme line is in the pinned message in #resources. It's free, it's outside the company, and nobody here sees whether you use it. No pressure either way. I'm around too.
+[2024-03-13 09:40:22] sam_ito#0000: i'll look at the pinned thing. thanks everyone. i think i just needed to say it out loud to somebody who wasn't a status update
+[2024-03-13 10:02:13] tinytools-bot#0000: **Deploy finished** — `web@5.2.0` → production. 37 checks passed, 0 failed. Commit `b410aa9` by devonw. Build 09:58 UTC. [view run](https://ci.nimbus.dev/runs/88304)
+[2024-03-13 10:05:47] tinytools-bot#0000: **Deploy finished** — `billing@1.9.7` → production. 51 checks passed, 0 failed. Commit `7d3f8e1` by priya.r. Build 10:01 UTC. [view run](https://ci.nimbus.dev/runs/88305)
+[2024-03-13 10:20:36] devonw#0000: small win: i wired the target-group assertion from mara's PR into the billing deploy too. first run caught an unhealthy target before it took any traffic 🎉
+[2024-03-13 10:22:58] mara_k#0000: Nice. That's exactly the failure mode it was written for, and you found it on the second service rather than the fourth.
+[2024-03-13 10:25:11] priya.r#0000: Good.
+[2024-03-13 16:40:29] nova_lyn#0000: anyone else think it's wild that we spent a whole day arguing and the answer was 'add a check' 😂
+[2024-03-13 16:42:53] priya.r#0000: The check was the easy part. Agreeing on what it asserts took the day.
+[2024-03-13 21:15:02] sam_ito#0000: update: took today off, slept eleven hours, went for a long walk with no phone. feeling more like a person. next week i'll pick the migration review back up with priya

@@ -1,0 +1,11 @@
+- insert:
+    - id: typesafe-profiler
+      name: '@deepseek-ai/dsh-typesafe-profiler'
+      disabled: !!js '!process.env.TYPESAFE_API_KEY?.trim()'
+      config:
+        model: jev-latest
+        timeoutMs: 30000
+        maxInputBytes: 65536
+        maxCriteria: 20
+        profileLimit: 200
+        profileConcurrency: 4

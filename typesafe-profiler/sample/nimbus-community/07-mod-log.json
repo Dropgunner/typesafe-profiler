@@ -1,0 +1,3772 @@
+{
+  "guild": {
+    "id": "1216000000000000001",
+    "name": "Nimbus Community",
+    "iconUrl": null
+  },
+  "channel": {
+    "id": "1216000000000001006",
+    "type": "GuildTextChat",
+    "categoryId": "1216000000000002006",
+    "category": "Automation",
+    "name": "mod-log",
+    "topic": "Automated moderation record."
+  },
+  "dateRange": {
+    "after": "2024-03-01T03:30:07.0000000+00:00",
+    "before": "2024-03-14T22:37:26.0000000+00:00"
+  },
+  "messages": [
+    {
+      "id": "1212965063753728000",
+      "type": "Default",
+      "timestamp": "2024-03-01T03:30:07.0000000+00:00",
+      "content": "**Banned** — julesberg, `spam`, case #24.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1212972496060416000",
+      "type": "Default",
+      "timestamp": "2024-03-01T03:59:39.0000000+00:00",
+      "content": "confirmed the scam link, domain is two days old",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213049545424896000",
+      "type": "Default",
+      "timestamp": "2024-03-01T09:05:49.0000000+00:00",
+      "content": "**Timed out** — yukiokafor `scam link`. Case #61.",
+      "author": {
+        "id": "100000000000000020",
+        "name": "stripe",
+        "discriminator": "0000",
+        "nickname": "Stripe",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213057590099968000",
+      "type": "Default",
+      "timestamp": "2024-03-01T09:37:47.0000000+00:00",
+      "content": "**Kicked** — elintanaka18 `spam`. Case #24.",
+      "author": {
+        "id": "100000000000000029",
+        "name": "welcomer",
+        "discriminator": "0000",
+        "nickname": "Welcomer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213059611754496000",
+      "type": "Default",
+      "timestamp": "2024-03-01T09:45:49.0000000+00:00",
+      "content": "**Timed out** — wrythistle60 was Timed out for `ban evasion`. Case #80.",
+      "author": {
+        "id": "100000000000000020",
+        "name": "stripe",
+        "discriminator": "0000",
+        "nickname": "Stripe",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213127618199552000",
+      "type": "Default",
+      "timestamp": "2024-03-01T14:16:03.0000000+00:00",
+      "content": "**Banned** — amberferry was Banned for `ban evasion`. Case #85.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213144089231360000",
+      "type": "Default",
+      "timestamp": "2024-03-01T15:21:30.0000000+00:00",
+      "content": "**Kicked** — swift_quarry was Kicked for `scam link`. Case #81.",
+      "author": {
+        "id": "100000000000000065",
+        "name": "modwatch-3",
+        "discriminator": "0000",
+        "nickname": "Modwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213144684822528000",
+      "type": "Default",
+      "timestamp": "2024-03-01T15:23:52.0000000+00:00",
+      "content": "**Kicked** — umberkestrel77 `spam`. Case #43.",
+      "author": {
+        "id": "100000000000000065",
+        "name": "modwatch-3",
+        "discriminator": "0000",
+        "nickname": "Modwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213181548560384000",
+      "type": "Default",
+      "timestamp": "2024-03-01T17:50:21.0000000+00:00",
+      "content": "**Kicked** — plain_gable41, `raid participation`, case #25.",
+      "author": {
+        "id": "100000000000000002",
+        "name": "pipeline-owl",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213209981747200000",
+      "type": "Default",
+      "timestamp": "2024-03-01T19:43:20.0000000+00:00",
+      "content": "**Banned** — mellowbadger `scam link`. Case #22.",
+      "author": {
+        "id": "100000000000000002",
+        "name": "pipeline-owl",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213216952680448000",
+      "type": "Default",
+      "timestamp": "2024-03-01T20:11:02.0000000+00:00",
+      "content": "**Timed out** — calmthistle98, `raid participation`, case #43.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213237861285888000",
+      "type": "Default",
+      "timestamp": "2024-03-01T21:34:07.0000000+00:00",
+      "content": "second spam wave in an hour",
+      "author": {
+        "id": "200000000000000940",
+        "name": "rustzephyr",
+        "discriminator": "0000",
+        "nickname": "Rust Zephyr",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213256525938688000",
+      "type": "Default",
+      "timestamp": "2024-03-01T22:48:17.0000000+00:00",
+      "content": "**Banned** — slate_anvil was Banned for `spam`. Case #70.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213300289306624000",
+      "type": "Default",
+      "timestamp": "2024-03-02T01:42:11.0000000+00:00",
+      "content": "**Banned** — rapidreed `spam`. Case #68.",
+      "author": {
+        "id": "100000000000000029",
+        "name": "welcomer",
+        "discriminator": "0000",
+        "nickname": "Welcomer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213313929183232000",
+      "type": "Default",
+      "timestamp": "2024-03-02T02:36:23.0000000+00:00",
+      "content": "the raid filter caught a wave of new accounts",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213457181442048000",
+      "type": "Default",
+      "timestamp": "2024-03-02T12:05:37.0000000+00:00",
+      "content": "**Warned** — arcticnettle6 was Warned for `scam link`. Case #67.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213485165838336000",
+      "type": "Default",
+      "timestamp": "2024-03-02T13:56:49.0000000+00:00",
+      "content": "**Kicked** — calm_ferry was Kicked for `ban evasion`. Case #63.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213513800351744000",
+      "type": "Default",
+      "timestamp": "2024-03-02T15:50:36.0000000+00:00",
+      "content": "**Kicked** — hollow_cinder, `scam link`, case #87.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213533257728000000",
+      "type": "Default",
+      "timestamp": "2024-03-02T17:07:55.0000000+00:00",
+      "content": "handing the queue over, nothing urgent",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213546004217856000",
+      "type": "Default",
+      "timestamp": "2024-03-02T17:58:34.0000000+00:00",
+      "content": "reviewing the overnight queue",
+      "author": {
+        "id": "200000000000000771",
+        "name": "ember_harbor",
+        "discriminator": "0000",
+        "nickname": "Ember Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213560512315392000",
+      "type": "Default",
+      "timestamp": "2024-03-02T18:56:13.0000000+00:00",
+      "content": "**Timed out** — quiet_zephyr `spam`. Case #37.",
+      "author": {
+        "id": "100000000000000029",
+        "name": "welcomer",
+        "discriminator": "0000",
+        "nickname": "Welcomer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213571048407040000",
+      "type": "Default",
+      "timestamp": "2024-03-02T19:38:05.0000000+00:00",
+      "content": "**Timed out** — calmwren, `ban evasion`, case #24.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213595127906304000",
+      "type": "Default",
+      "timestamp": "2024-03-02T21:13:46.0000000+00:00",
+      "content": "handing the queue over, nothing urgent",
+      "author": {
+        "id": "200000000000000771",
+        "name": "ember_harbor",
+        "discriminator": "0000",
+        "nickname": "Ember Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213660600991744000",
+      "type": "Default",
+      "timestamp": "2024-03-03T01:33:56.0000000+00:00",
+      "content": "reviewing the overnight queue",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213759095832576000",
+      "type": "Default",
+      "timestamp": "2024-03-03T08:05:19.0000000+00:00",
+      "content": "**Warned** — slateferry5, `raid participation`, case #40.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213760802914304000",
+      "type": "Default",
+      "timestamp": "2024-03-03T08:12:06.0000000+00:00",
+      "content": "**Timed out** — wrynettle56 was Timed out for `raid participation`. Case #22.",
+      "author": {
+        "id": "100000000000000029",
+        "name": "welcomer",
+        "discriminator": "0000",
+        "nickname": "Welcomer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213800371978240000",
+      "type": "Default",
+      "timestamp": "2024-03-03T10:49:20.0000000+00:00",
+      "content": "**Kicked** — tidyorchid95, `ban evasion`, case #11.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213827471376384000",
+      "type": "Default",
+      "timestamp": "2024-03-03T12:37:01.0000000+00:00",
+      "content": "**Kicked** — plainanvil was Kicked for `spam`. Case #72.",
+      "author": {
+        "id": "100000000000000065",
+        "name": "modwatch-3",
+        "discriminator": "0000",
+        "nickname": "Modwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213859201286144000",
+      "type": "Default",
+      "timestamp": "2024-03-03T14:43:06.0000000+00:00",
+      "content": "**Timed out** — malikito was Timed out for `raid participation`. Case #46.",
+      "author": {
+        "id": "100000000000000065",
+        "name": "modwatch-3",
+        "discriminator": "0000",
+        "nickname": "Modwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213864070873088000",
+      "type": "Default",
+      "timestamp": "2024-03-03T15:02:27.0000000+00:00",
+      "content": "**Timed out** — wryzephyr was Timed out for `scam link`. Case #22.",
+      "author": {
+        "id": "100000000000000092",
+        "name": "pipeline-owl-4",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl 4",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213868906905600000",
+      "type": "Default",
+      "timestamp": "2024-03-03T15:21:40.0000000+00:00",
+      "content": "**Banned** — swiftbadger, `spam`, case #87.",
+      "author": {
+        "id": "100000000000000065",
+        "name": "modwatch-3",
+        "discriminator": "0000",
+        "nickname": "Modwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213884992061440000",
+      "type": "Default",
+      "timestamp": "2024-03-03T16:25:35.0000000+00:00",
+      "content": "**Warned** — boldorchid was Warned for `raid participation`. Case #27.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213887219236864000",
+      "type": "Default",
+      "timestamp": "2024-03-03T16:34:26.0000000+00:00",
+      "content": "**Timed out** — priyakessler was Timed out for `raid participation`. Case #55.",
+      "author": {
+        "id": "100000000000000092",
+        "name": "pipeline-owl-4",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl 4",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213887491866624000",
+      "type": "Default",
+      "timestamp": "2024-03-03T16:35:31.0000000+00:00",
+      "content": "**Kicked** — ineshaddad65 `spam`. Case #80.",
+      "author": {
+        "id": "100000000000000065",
+        "name": "modwatch-3",
+        "discriminator": "0000",
+        "nickname": "Modwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213888032931840000",
+      "type": "Default",
+      "timestamp": "2024-03-03T16:37:40.0000000+00:00",
+      "content": "**Timed out** — juleskessler `spam`. Case #72.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213904302637056000",
+      "type": "Default",
+      "timestamp": "2024-03-03T17:42:19.0000000+00:00",
+      "content": "**Warned** — raviito21 `ban evasion`. Case #16.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213912070488064000",
+      "type": "Default",
+      "timestamp": "2024-03-03T18:13:11.0000000+00:00",
+      "content": "**Warned** — idle_kettle, `scam link`, case #32.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213928398913536000",
+      "type": "Default",
+      "timestamp": "2024-03-03T19:18:04.0000000+00:00",
+      "content": "**Warned** — plainvellum, `raid participation`, case #43.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213963568152576000",
+      "type": "Default",
+      "timestamp": "2024-03-03T21:37:49.0000000+00:00",
+      "content": "**Kicked** — cassnovak, `raid participation`, case #65.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214014092738560000",
+      "type": "Default",
+      "timestamp": "2024-03-04T00:58:35.0000000+00:00",
+      "content": "**Kicked** — emberzephyr88 `scam link`. Case #85.",
+      "author": {
+        "id": "100000000000000065",
+        "name": "modwatch-3",
+        "discriminator": "0000",
+        "nickname": "Modwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214017980858368000",
+      "type": "Default",
+      "timestamp": "2024-03-04T01:14:02.0000000+00:00",
+      "content": "**Banned** — slatewillow40 was Banned for `ban evasion`. Case #49.",
+      "author": {
+        "id": "100000000000000029",
+        "name": "welcomer",
+        "discriminator": "0000",
+        "nickname": "Welcomer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214032618979328000",
+      "type": "Default",
+      "timestamp": "2024-03-04T02:12:12.0000000+00:00",
+      "content": "**Warned** — quiet_marlin `spam`. Case #87.",
+      "author": {
+        "id": "100000000000000092",
+        "name": "pipeline-owl-4",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl 4",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214036192526336000",
+      "type": "Default",
+      "timestamp": "2024-03-04T02:26:24.0000000+00:00",
+      "content": "**Warned** — priyapetrov, `ban evasion`, case #26.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214046023974912000",
+      "type": "Default",
+      "timestamp": "2024-03-04T03:05:28.0000000+00:00",
+      "content": "**Kicked** — arcticyarrow, `ban evasion`, case #38.",
+      "author": {
+        "id": "100000000000000029",
+        "name": "welcomer",
+        "discriminator": "0000",
+        "nickname": "Welcomer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214072867520512000",
+      "type": "Default",
+      "timestamp": "2024-03-04T04:52:08.0000000+00:00",
+      "content": "**Warned** — wrylantern37 `raid participation`. Case #26.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214088646492160000",
+      "type": "Default",
+      "timestamp": "2024-03-04T05:54:50.0000000+00:00",
+      "content": "**Timed out** — idleorchid was Timed out for `scam link`. Case #29.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214134951608320000",
+      "type": "Default",
+      "timestamp": "2024-03-04T08:58:50.0000000+00:00",
+      "content": "**Banned** — briskcinder `raid participation`. Case #18.",
+      "author": {
+        "id": "100000000000000065",
+        "name": "modwatch-3",
+        "discriminator": "0000",
+        "nickname": "Modwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214163942637568000",
+      "type": "Default",
+      "timestamp": "2024-03-04T10:54:02.0000000+00:00",
+      "content": "**Warned** — rapidpine39, `ban evasion`, case #23.",
+      "author": {
+        "id": "100000000000000092",
+        "name": "pipeline-owl-4",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl 4",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214175653134336000",
+      "type": "Default",
+      "timestamp": "2024-03-04T11:40:34.0000000+00:00",
+      "content": "**Warned** — keencobalt75 was Warned for `spam`. Case #46.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214198415622144000",
+      "type": "Default",
+      "timestamp": "2024-03-04T13:11:01.0000000+00:00",
+      "content": "second spam wave in an hour",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214202907721728000",
+      "type": "Default",
+      "timestamp": "2024-03-04T13:28:52.0000000+00:00",
+      "content": "**Warned** — yukir99 `spam`. Case #32.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214238597054464000",
+      "type": "Default",
+      "timestamp": "2024-03-04T15:50:41.0000000+00:00",
+      "content": "**Timed out** — rust_meadow65, `spam`, case #87.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214260008976384000",
+      "type": "Default",
+      "timestamp": "2024-03-04T17:15:46.0000000+00:00",
+      "content": "reviewing the overnight queue",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214292141539328000",
+      "type": "Default",
+      "timestamp": "2024-03-04T19:23:27.0000000+00:00",
+      "content": "confirmed the scam link, domain is two days old",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214303944310784000",
+      "type": "Default",
+      "timestamp": "2024-03-04T20:10:21.0000000+00:00",
+      "content": "**Kicked** — swift_harbor88, `raid participation`, case #48.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214309879250944000",
+      "type": "Default",
+      "timestamp": "2024-03-04T20:33:56.0000000+00:00",
+      "content": "second spam wave in an hour",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214326568386560000",
+      "type": "Default",
+      "timestamp": "2024-03-04T21:40:15.0000000+00:00",
+      "content": "**Timed out** — keen_lattice71 was Timed out for `ban evasion`. Case #85.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214332654321664000",
+      "type": "Default",
+      "timestamp": "2024-03-04T22:04:26.0000000+00:00",
+      "content": "second spam wave in an hour",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214337221918720000",
+      "type": "Default",
+      "timestamp": "2024-03-04T22:22:35.0000000+00:00",
+      "content": "confirmed the scam link, domain is two days old",
+      "author": {
+        "id": "200000000000000771",
+        "name": "ember_harbor",
+        "discriminator": "0000",
+        "nickname": "Ember Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214339256156160000",
+      "type": "Default",
+      "timestamp": "2024-03-04T22:30:40.0000000+00:00",
+      "content": "handing the queue over, nothing urgent",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214343882473472000",
+      "type": "Default",
+      "timestamp": "2024-03-04T22:49:03.0000000+00:00",
+      "content": "**Timed out** — frost_cobalt77 `scam link`. Case #81.",
+      "author": {
+        "id": "100000000000000029",
+        "name": "welcomer",
+        "discriminator": "0000",
+        "nickname": "Welcomer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214347162419200000",
+      "type": "Default",
+      "timestamp": "2024-03-04T23:02:05.0000000+00:00",
+      "content": "**Banned** — brisk_wren, `raid participation`, case #28.",
+      "author": {
+        "id": "100000000000000029",
+        "name": "welcomer",
+        "discriminator": "0000",
+        "nickname": "Welcomer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214349205045248000",
+      "type": "Default",
+      "timestamp": "2024-03-04T23:10:12.0000000+00:00",
+      "content": "second spam wave in an hour",
+      "author": {
+        "id": "200000000000000771",
+        "name": "ember_harbor",
+        "discriminator": "0000",
+        "nickname": "Ember Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214363700559872000",
+      "type": "Default",
+      "timestamp": "2024-03-05T00:07:48.0000000+00:00",
+      "content": "**Timed out** — rust_harbor `scam link`. Case #24.",
+      "author": {
+        "id": "100000000000000065",
+        "name": "modwatch-3",
+        "discriminator": "0000",
+        "nickname": "Modwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214391882088448000",
+      "type": "Default",
+      "timestamp": "2024-03-05T01:59:47.0000000+00:00",
+      "content": "**Timed out** — lucidotter, `raid participation`, case #64.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214444776456192000",
+      "type": "Default",
+      "timestamp": "2024-03-05T05:29:58.0000000+00:00",
+      "content": "**Banned** — lucidthistle66 was Banned for `spam`. Case #33.",
+      "author": {
+        "id": "100000000000000074",
+        "name": "harborwatch-3",
+        "discriminator": "0000",
+        "nickname": "Harborwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214448987537408000",
+      "type": "Default",
+      "timestamp": "2024-03-05T05:46:42.0000000+00:00",
+      "content": "the raid filter caught a wave of new accounts",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214461922770944000",
+      "type": "Default",
+      "timestamp": "2024-03-05T06:38:06.0000000+00:00",
+      "content": "**Timed out** — hollow_cobalt was Timed out for `scam link`. Case #49.",
+      "author": {
+        "id": "100000000000000002",
+        "name": "pipeline-owl",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214471020216320000",
+      "type": "Default",
+      "timestamp": "2024-03-05T07:14:15.0000000+00:00",
+      "content": "**Banned** — hanacosta, `ban evasion`, case #50.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214499583426560000",
+      "type": "Default",
+      "timestamp": "2024-03-05T09:07:45.0000000+00:00",
+      "content": "**Warned** — arctic_quarry `ban evasion`. Case #43.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214503588986880000",
+      "type": "Default",
+      "timestamp": "2024-03-05T09:23:40.0000000+00:00",
+      "content": "**Banned** — lucid_badger `spam`. Case #32.",
+      "author": {
+        "id": "100000000000000029",
+        "name": "welcomer",
+        "discriminator": "0000",
+        "nickname": "Welcomer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214522408828928000",
+      "type": "Default",
+      "timestamp": "2024-03-05T10:38:27.0000000+00:00",
+      "content": "**Warned** — freyapetrov `scam link`. Case #24.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214558215602176000",
+      "type": "Default",
+      "timestamp": "2024-03-05T13:00:44.0000000+00:00",
+      "content": "**Warned** — omarberg `spam`. Case #49.",
+      "author": {
+        "id": "100000000000000020",
+        "name": "stripe",
+        "discriminator": "0000",
+        "nickname": "Stripe",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214559645859840000",
+      "type": "Default",
+      "timestamp": "2024-03-05T13:06:25.0000000+00:00",
+      "content": "**Timed out** — pavelw, `raid participation`, case #58.",
+      "author": {
+        "id": "100000000000000074",
+        "name": "harborwatch-3",
+        "discriminator": "0000",
+        "nickname": "Harborwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214561843675136000",
+      "type": "Default",
+      "timestamp": "2024-03-05T13:15:09.0000000+00:00",
+      "content": "the raid filter caught a wave of new accounts",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214592466288640000",
+      "type": "Default",
+      "timestamp": "2024-03-05T15:16:50.0000000+00:00",
+      "content": "**Timed out** — inesmoreau4 was Timed out for `spam`. Case #32.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214596618649600000",
+      "type": "Default",
+      "timestamp": "2024-03-05T15:33:20.0000000+00:00",
+      "content": "the raid filter caught a wave of new accounts",
+      "author": {
+        "id": "200000000000000219",
+        "name": "calmwren",
+        "discriminator": "0000",
+        "nickname": "Calm Wren",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214600435466240000",
+      "type": "Default",
+      "timestamp": "2024-03-05T15:48:30.0000000+00:00",
+      "content": "**Kicked** — jadewillow, `spam`, case #11.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214610485018624000",
+      "type": "Default",
+      "timestamp": "2024-03-05T16:28:26.0000000+00:00",
+      "content": "**Timed out** — malikhaddad, `raid participation`, case #13.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214629082562560000",
+      "type": "Default",
+      "timestamp": "2024-03-05T17:42:20.0000000+00:00",
+      "content": "**Timed out** — hollow_meadow, `spam`, case #59.",
+      "author": {
+        "id": "100000000000000020",
+        "name": "stripe",
+        "discriminator": "0000",
+        "nickname": "Stripe",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214648770625536000",
+      "type": "Default",
+      "timestamp": "2024-03-05T19:00:34.0000000+00:00",
+      "content": "**Timed out** — rapidferry75, `scam link`, case #90.",
+      "author": {
+        "id": "100000000000000092",
+        "name": "pipeline-owl-4",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl 4",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214688255803392000",
+      "type": "Default",
+      "timestamp": "2024-03-05T21:37:28.0000000+00:00",
+      "content": "**Timed out** — amber_orchid was Timed out for `spam`. Case #85.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214692693377024000",
+      "type": "Default",
+      "timestamp": "2024-03-05T21:55:06.0000000+00:00",
+      "content": "**Timed out** — quietbadger was Timed out for `raid participation`. Case #30.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214708375879680000",
+      "type": "Default",
+      "timestamp": "2024-03-05T22:57:25.0000000+00:00",
+      "content": "handing the queue over, nothing urgent",
+      "author": {
+        "id": "200000000000000940",
+        "name": "rustzephyr",
+        "discriminator": "0000",
+        "nickname": "Rust Zephyr",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214752214745088000",
+      "type": "Default",
+      "timestamp": "2024-03-06T01:51:37.0000000+00:00",
+      "content": "**Timed out** — vividlantern was Timed out for `spam`. Case #38.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214762625007616000",
+      "type": "Default",
+      "timestamp": "2024-03-06T02:32:59.0000000+00:00",
+      "content": "confirmed the scam link, domain is two days old",
+      "author": {
+        "id": "200000000000000771",
+        "name": "ember_harbor",
+        "discriminator": "0000",
+        "nickname": "Ember Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214769876959232000",
+      "type": "Default",
+      "timestamp": "2024-03-06T03:01:48.0000000+00:00",
+      "content": "reviewing the overnight queue",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214773542780928000",
+      "type": "Default",
+      "timestamp": "2024-03-06T03:16:22.0000000+00:00",
+      "content": "the raid filter caught a wave of new accounts",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214802881937408000",
+      "type": "Default",
+      "timestamp": "2024-03-06T05:12:57.0000000+00:00",
+      "content": "**Timed out** — frost_pine21, `spam`, case #51.",
+      "author": {
+        "id": "100000000000000092",
+        "name": "pipeline-owl-4",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl 4",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214804328972288000",
+      "type": "Default",
+      "timestamp": "2024-03-06T05:18:42.0000000+00:00",
+      "content": "confirmed the scam link, domain is two days old",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214848566296576000",
+      "type": "Default",
+      "timestamp": "2024-03-06T08:14:29.0000000+00:00",
+      "content": "reviewing the overnight queue",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214855419789312000",
+      "type": "Default",
+      "timestamp": "2024-03-06T08:41:43.0000000+00:00",
+      "content": "**Warned** — priyasilva2 `raid participation`. Case #37.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214856900378624000",
+      "type": "Default",
+      "timestamp": "2024-03-06T08:47:36.0000000+00:00",
+      "content": "confirmed the scam link, domain is two days old",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214933630976000000",
+      "type": "Default",
+      "timestamp": "2024-03-06T13:52:30.0000000+00:00",
+      "content": "**Timed out** — rapidorchid was Timed out for `scam link`. Case #12.",
+      "author": {
+        "id": "100000000000000065",
+        "name": "modwatch-3",
+        "discriminator": "0000",
+        "nickname": "Modwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214948566892544000",
+      "type": "Default",
+      "timestamp": "2024-03-06T14:51:51.0000000+00:00",
+      "content": "**Warned** — keenotter, `raid participation`, case #18.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214950236225536000",
+      "type": "Default",
+      "timestamp": "2024-03-06T14:58:29.0000000+00:00",
+      "content": "the raid filter caught a wave of new accounts",
+      "author": {
+        "id": "200000000000000940",
+        "name": "rustzephyr",
+        "discriminator": "0000",
+        "nickname": "Rust Zephyr",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214971614593024000",
+      "type": "Default",
+      "timestamp": "2024-03-06T16:23:26.0000000+00:00",
+      "content": "**Kicked** — nimblevellum18, `ban evasion`, case #26.",
+      "author": {
+        "id": "100000000000000092",
+        "name": "pipeline-owl-4",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl 4",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214975297191936000",
+      "type": "Default",
+      "timestamp": "2024-03-06T16:38:04.0000000+00:00",
+      "content": "**Kicked** — zesty_tundra, `raid participation`, case #41.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214987678777344000",
+      "type": "Default",
+      "timestamp": "2024-03-06T17:27:16.0000000+00:00",
+      "content": "**Kicked** — quietthistle `ban evasion`. Case #44.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214999330553856000",
+      "type": "Default",
+      "timestamp": "2024-03-06T18:13:34.0000000+00:00",
+      "content": "**Timed out** — hollow_cobalt was Timed out for `raid participation`. Case #68.",
+      "author": {
+        "id": "100000000000000029",
+        "name": "welcomer",
+        "discriminator": "0000",
+        "nickname": "Welcomer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215017265397760000",
+      "type": "Default",
+      "timestamp": "2024-03-06T19:24:50.0000000+00:00",
+      "content": "**Warned** — faint_cobalt was Warned for `ban evasion`. Case #47.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215037658103808000",
+      "type": "Default",
+      "timestamp": "2024-03-06T20:45:52.0000000+00:00",
+      "content": "**Kicked** — theoraman `spam`. Case #35.",
+      "author": {
+        "id": "100000000000000002",
+        "name": "pipeline-owl",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215044008280064000",
+      "type": "Default",
+      "timestamp": "2024-03-06T21:11:06.0000000+00:00",
+      "content": "**Kicked** — calmwillow was Kicked for `scam link`. Case #33.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215047925760000000",
+      "type": "Default",
+      "timestamp": "2024-03-06T21:26:40.0000000+00:00",
+      "content": "**Kicked** — zarakessler, `ban evasion`, case #67.",
+      "author": {
+        "id": "100000000000000020",
+        "name": "stripe",
+        "discriminator": "0000",
+        "nickname": "Stripe",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215054254964736000",
+      "type": "Default",
+      "timestamp": "2024-03-06T21:51:49.0000000+00:00",
+      "content": "**Kicked** — rustferry, `raid participation`, case #61.",
+      "author": {
+        "id": "100000000000000029",
+        "name": "welcomer",
+        "discriminator": "0000",
+        "nickname": "Welcomer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215065889964032000",
+      "type": "Default",
+      "timestamp": "2024-03-06T22:38:03.0000000+00:00",
+      "content": "**Warned** — zestyvellum `spam`. Case #23.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215085330563072000",
+      "type": "Default",
+      "timestamp": "2024-03-06T23:55:18.0000000+00:00",
+      "content": "**Warned** — julesw43 was Warned for `ban evasion`. Case #80.",
+      "author": {
+        "id": "100000000000000092",
+        "name": "pipeline-owl-4",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl 4",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215103026331648000",
+      "type": "Default",
+      "timestamp": "2024-03-07T01:05:37.0000000+00:00",
+      "content": "reviewing the overnight queue",
+      "author": {
+        "id": "200000000000000219",
+        "name": "calmwren",
+        "discriminator": "0000",
+        "nickname": "Calm Wren",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215253543124992000",
+      "type": "Default",
+      "timestamp": "2024-03-07T11:03:43.0000000+00:00",
+      "content": "**Kicked** — hollow_yarrow, `spam`, case #78.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215258425294848000",
+      "type": "Default",
+      "timestamp": "2024-03-07T11:23:07.0000000+00:00",
+      "content": "**Kicked** — yukiberg `raid participation`. Case #10.",
+      "author": {
+        "id": "100000000000000020",
+        "name": "stripe",
+        "discriminator": "0000",
+        "nickname": "Stripe",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215274682417152000",
+      "type": "Default",
+      "timestamp": "2024-03-07T12:27:43.0000000+00:00",
+      "content": "**Timed out** — inesokafor was Timed out for `ban evasion`. Case #88.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215293099606016000",
+      "type": "Default",
+      "timestamp": "2024-03-07T13:40:54.0000000+00:00",
+      "content": "second spam wave in an hour",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215315077758976000",
+      "type": "Default",
+      "timestamp": "2024-03-07T15:08:14.0000000+00:00",
+      "content": "the raid filter caught a wave of new accounts",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215324691103744000",
+      "type": "Default",
+      "timestamp": "2024-03-07T15:46:26.0000000+00:00",
+      "content": "**Banned** — maliknovak96 `raid participation`. Case #61.",
+      "author": {
+        "id": "100000000000000002",
+        "name": "pipeline-owl",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215344630824960000",
+      "type": "Default",
+      "timestamp": "2024-03-07T17:05:40.0000000+00:00",
+      "content": "**Timed out** — rapidlattice `ban evasion`. Case #26.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215350267969536000",
+      "type": "Default",
+      "timestamp": "2024-03-07T17:28:04.0000000+00:00",
+      "content": "the raid filter caught a wave of new accounts",
+      "author": {
+        "id": "200000000000000771",
+        "name": "ember_harbor",
+        "discriminator": "0000",
+        "nickname": "Ember Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215359038259200000",
+      "type": "Default",
+      "timestamp": "2024-03-07T18:02:55.0000000+00:00",
+      "content": "handing the queue over, nothing urgent",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215359214419968000",
+      "type": "Default",
+      "timestamp": "2024-03-07T18:03:37.0000000+00:00",
+      "content": "handing the queue over, nothing urgent",
+      "author": {
+        "id": "200000000000000771",
+        "name": "ember_harbor",
+        "discriminator": "0000",
+        "nickname": "Ember Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215379145752576000",
+      "type": "Default",
+      "timestamp": "2024-03-07T19:22:49.0000000+00:00",
+      "content": "confirmed the scam link, domain is two days old",
+      "author": {
+        "id": "200000000000000771",
+        "name": "ember_harbor",
+        "discriminator": "0000",
+        "nickname": "Ember Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215391070158848000",
+      "type": "Default",
+      "timestamp": "2024-03-07T20:10:12.0000000+00:00",
+      "content": "**Banned** — nimble_willow, `scam link`, case #81.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215394312355840000",
+      "type": "Default",
+      "timestamp": "2024-03-07T20:23:05.0000000+00:00",
+      "content": "**Warned** — hanapetrov55 `ban evasion`. Case #24.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215402273144832000",
+      "type": "Default",
+      "timestamp": "2024-03-07T20:54:43.0000000+00:00",
+      "content": "second spam wave in an hour",
+      "author": {
+        "id": "200000000000000771",
+        "name": "ember_harbor",
+        "discriminator": "0000",
+        "nickname": "Ember Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215455616303104000",
+      "type": "Default",
+      "timestamp": "2024-03-08T00:26:41.0000000+00:00",
+      "content": "**Kicked** — devonmoreau, `spam`, case #20.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215469839187968000",
+      "type": "Default",
+      "timestamp": "2024-03-08T01:23:12.0000000+00:00",
+      "content": "**Kicked** — opalquarry61, `spam`, case #11.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215487602065408000",
+      "type": "Default",
+      "timestamp": "2024-03-08T02:33:47.0000000+00:00",
+      "content": "**Kicked** — plainorchid was Kicked for `raid participation`. Case #84.",
+      "author": {
+        "id": "100000000000000074",
+        "name": "harborwatch-3",
+        "discriminator": "0000",
+        "nickname": "Harborwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215534511161344000",
+      "type": "Default",
+      "timestamp": "2024-03-08T05:40:11.0000000+00:00",
+      "content": "**Banned** — priyatanaka, `ban evasion`, case #27.",
+      "author": {
+        "id": "100000000000000092",
+        "name": "pipeline-owl-4",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl 4",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215607953424384000",
+      "type": "Default",
+      "timestamp": "2024-03-08T10:32:01.0000000+00:00",
+      "content": "**Timed out** — quietotter, `ban evasion`, case #44.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215650106179584000",
+      "type": "Default",
+      "timestamp": "2024-03-08T13:19:31.0000000+00:00",
+      "content": "**Timed out** — swiftcinder was Timed out for `spam`. Case #80.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215651158949888000",
+      "type": "Default",
+      "timestamp": "2024-03-08T13:23:42.0000000+00:00",
+      "content": "**Kicked** — amberjuniper `ban evasion`. Case #34.",
+      "author": {
+        "id": "100000000000000065",
+        "name": "modwatch-3",
+        "discriminator": "0000",
+        "nickname": "Modwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215668749860864000",
+      "type": "Default",
+      "timestamp": "2024-03-08T14:33:36.0000000+00:00",
+      "content": "**Kicked** — idle_lantern20, `ban evasion`, case #56.",
+      "author": {
+        "id": "100000000000000002",
+        "name": "pipeline-owl",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215673485230080000",
+      "type": "Default",
+      "timestamp": "2024-03-08T14:52:25.0000000+00:00",
+      "content": "**Timed out** — cassberg7 `scam link`. Case #25.",
+      "author": {
+        "id": "100000000000000002",
+        "name": "pipeline-owl",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215677708894208000",
+      "type": "Default",
+      "timestamp": "2024-03-08T15:09:12.0000000+00:00",
+      "content": "the raid filter caught a wave of new accounts",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215720587264000000",
+      "type": "Default",
+      "timestamp": "2024-03-08T17:59:35.0000000+00:00",
+      "content": "confirmed the scam link, domain is two days old",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215773896867840000",
+      "type": "Default",
+      "timestamp": "2024-03-08T21:31:25.0000000+00:00",
+      "content": "**Kicked** — vividkestrel35 was Kicked for `spam`. Case #62.",
+      "author": {
+        "id": "100000000000000074",
+        "name": "harborwatch-3",
+        "discriminator": "0000",
+        "nickname": "Harborwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215776644136960000",
+      "type": "Default",
+      "timestamp": "2024-03-08T21:42:20.0000000+00:00",
+      "content": "handing the queue over, nothing urgent",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215783086587904000",
+      "type": "Default",
+      "timestamp": "2024-03-08T22:07:56.0000000+00:00",
+      "content": "**Warned** — jade_yarrow30, `spam`, case #82.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215783262748672000",
+      "type": "Default",
+      "timestamp": "2024-03-08T22:08:38.0000000+00:00",
+      "content": "reviewing the overnight queue",
+      "author": {
+        "id": "200000000000000771",
+        "name": "ember_harbor",
+        "discriminator": "0000",
+        "nickname": "Ember Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215792322445312000",
+      "type": "Default",
+      "timestamp": "2024-03-08T22:44:38.0000000+00:00",
+      "content": "**Banned** — jade_willow was Banned for `spam`. Case #10.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215798983000064000",
+      "type": "Default",
+      "timestamp": "2024-03-08T23:11:06.0000000+00:00",
+      "content": "**Warned** — malikpetrov80 `spam`. Case #72.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215807929450496000",
+      "type": "Default",
+      "timestamp": "2024-03-08T23:46:39.0000000+00:00",
+      "content": "**Warned** — boldbadger `spam`. Case #72.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215918071873536000",
+      "type": "Default",
+      "timestamp": "2024-03-09T07:04:19.0000000+00:00",
+      "content": "confirmed the scam link, domain is two days old",
+      "author": {
+        "id": "200000000000000771",
+        "name": "ember_harbor",
+        "discriminator": "0000",
+        "nickname": "Ember Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215935176245248000",
+      "type": "Default",
+      "timestamp": "2024-03-09T08:12:17.0000000+00:00",
+      "content": "**Timed out** — rapidcinder was Timed out for `ban evasion`. Case #53.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215942893764608000",
+      "type": "Default",
+      "timestamp": "2024-03-09T08:42:57.0000000+00:00",
+      "content": "**Banned** — noork `scam link`. Case #72.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215951714385920000",
+      "type": "Default",
+      "timestamp": "2024-03-09T09:18:00.0000000+00:00",
+      "content": "**Timed out** — inessilva, `ban evasion`, case #11.",
+      "author": {
+        "id": "100000000000000074",
+        "name": "harborwatch-3",
+        "discriminator": "0000",
+        "nickname": "Harborwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215974221021184000",
+      "type": "Default",
+      "timestamp": "2024-03-09T10:47:26.0000000+00:00",
+      "content": "**Kicked** — amberyarrow `ban evasion`. Case #40.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216047768141824000",
+      "type": "Default",
+      "timestamp": "2024-03-09T15:39:41.0000000+00:00",
+      "content": "the raid filter caught a wave of new accounts",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216056773312512000",
+      "type": "Default",
+      "timestamp": "2024-03-09T16:15:28.0000000+00:00",
+      "content": "**Banned** — omarkessler, `ban evasion`, case #17.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216065392607232000",
+      "type": "Default",
+      "timestamp": "2024-03-09T16:49:43.0000000+00:00",
+      "content": "**Kicked** — talialindqvist `scam link`. Case #9.",
+      "author": {
+        "id": "100000000000000020",
+        "name": "stripe",
+        "discriminator": "0000",
+        "nickname": "Stripe",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216069725323264000",
+      "type": "Default",
+      "timestamp": "2024-03-09T17:06:56.0000000+00:00",
+      "content": "handing the queue over, nothing urgent",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216080060088320000",
+      "type": "Default",
+      "timestamp": "2024-03-09T17:48:00.0000000+00:00",
+      "content": "confirmed the scam link, domain is two days old",
+      "author": {
+        "id": "200000000000000219",
+        "name": "calmwren",
+        "discriminator": "0000",
+        "nickname": "Calm Wren",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216112670801920000",
+      "type": "Default",
+      "timestamp": "2024-03-09T19:57:35.0000000+00:00",
+      "content": "**Timed out** — malikberg, `spam`, case #79.",
+      "author": {
+        "id": "100000000000000092",
+        "name": "pipeline-owl-4",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl 4",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216133029953536000",
+      "type": "Default",
+      "timestamp": "2024-03-09T21:18:29.0000000+00:00",
+      "content": "confirmed the scam link, domain is two days old",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216147726794752000",
+      "type": "Default",
+      "timestamp": "2024-03-09T22:16:53.0000000+00:00",
+      "content": "second spam wave in an hour",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216150817996800000",
+      "type": "Default",
+      "timestamp": "2024-03-09T22:29:10.0000000+00:00",
+      "content": "second spam wave in an hour",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216151677829120000",
+      "type": "Default",
+      "timestamp": "2024-03-09T22:32:35.0000000+00:00",
+      "content": "**Timed out** — rapidferry75 `scam link`. Case #83.",
+      "author": {
+        "id": "100000000000000029",
+        "name": "welcomer",
+        "discriminator": "0000",
+        "nickname": "Welcomer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216154672562176000",
+      "type": "Default",
+      "timestamp": "2024-03-09T22:44:29.0000000+00:00",
+      "content": "confirmed the scam link, domain is two days old",
+      "author": {
+        "id": "200000000000000771",
+        "name": "ember_harbor",
+        "discriminator": "0000",
+        "nickname": "Ember Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216205285228544000",
+      "type": "Default",
+      "timestamp": "2024-03-10T02:05:36.0000000+00:00",
+      "content": "**Timed out** — clever_kettle `scam link`. Case #51.",
+      "author": {
+        "id": "100000000000000029",
+        "name": "welcomer",
+        "discriminator": "0000",
+        "nickname": "Welcomer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216247140188160000",
+      "type": "Default",
+      "timestamp": "2024-03-10T04:51:55.0000000+00:00",
+      "content": "**Banned** — inesokafor, `ban evasion`, case #27.",
+      "author": {
+        "id": "100000000000000020",
+        "name": "stripe",
+        "discriminator": "0000",
+        "nickname": "Stripe",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216247530258432000",
+      "type": "Default",
+      "timestamp": "2024-03-10T04:53:28.0000000+00:00",
+      "content": "**Kicked** — keen_zephyr `spam`. Case #10.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216256015335424000",
+      "type": "Default",
+      "timestamp": "2024-03-10T05:27:11.0000000+00:00",
+      "content": "**Kicked** — umber_pine was Kicked for `scam link`. Case #75.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216260134141952000",
+      "type": "Default",
+      "timestamp": "2024-03-10T05:43:33.0000000+00:00",
+      "content": "**Timed out** — umber_lantern, `scam link`, case #42.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216265129558016000",
+      "type": "Default",
+      "timestamp": "2024-03-10T06:03:24.0000000+00:00",
+      "content": "**Banned** — noorito, `ban evasion`, case #41.",
+      "author": {
+        "id": "100000000000000065",
+        "name": "modwatch-3",
+        "discriminator": "0000",
+        "nickname": "Modwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216352115228672000",
+      "type": "Default",
+      "timestamp": "2024-03-10T11:49:03.0000000+00:00",
+      "content": "**Timed out** — wrythistle60, `raid participation`, case #78.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216353730035712000",
+      "type": "Default",
+      "timestamp": "2024-03-10T11:55:28.0000000+00:00",
+      "content": "**Banned** — umberferry, `raid participation`, case #13.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216367957114880000",
+      "type": "Default",
+      "timestamp": "2024-03-10T12:52:00.0000000+00:00",
+      "content": "**Banned** — cassraman, `spam`, case #65.",
+      "author": {
+        "id": "100000000000000002",
+        "name": "pipeline-owl",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216402971164672000",
+      "type": "Default",
+      "timestamp": "2024-03-10T15:11:08.0000000+00:00",
+      "content": "reviewing the overnight queue",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216428552224768000",
+      "type": "Default",
+      "timestamp": "2024-03-10T16:52:47.0000000+00:00",
+      "content": "**Timed out** — plaincobalt `ban evasion`. Case #71.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216440728289280000",
+      "type": "Default",
+      "timestamp": "2024-03-10T17:41:10.0000000+00:00",
+      "content": "**Timed out** — hanaito, `raid participation`, case #82.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216451859972096000",
+      "type": "Default",
+      "timestamp": "2024-03-10T18:25:24.0000000+00:00",
+      "content": "**Timed out** — kestreltanaka was Timed out for `ban evasion`. Case #42.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216453017600000000",
+      "type": "Default",
+      "timestamp": "2024-03-10T18:30:00.0000000+00:00",
+      "content": "**Kicked** — rheaokafor, `spam`, case #59.",
+      "author": {
+        "id": "100000000000000092",
+        "name": "pipeline-owl-4",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl 4",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216489222832128000",
+      "type": "Default",
+      "timestamp": "2024-03-10T20:53:52.0000000+00:00",
+      "content": "**Warned** — calmpine was Warned for `spam`. Case #58.",
+      "author": {
+        "id": "100000000000000065",
+        "name": "modwatch-3",
+        "discriminator": "0000",
+        "nickname": "Modwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216489600319488000",
+      "type": "Default",
+      "timestamp": "2024-03-10T20:55:22.0000000+00:00",
+      "content": "second spam wave in an hour",
+      "author": {
+        "id": "200000000000000219",
+        "name": "calmwren",
+        "discriminator": "0000",
+        "nickname": "Calm Wren",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216502648799232000",
+      "type": "Default",
+      "timestamp": "2024-03-10T21:47:13.0000000+00:00",
+      "content": "**Banned** — calmwillow was Banned for `ban evasion`. Case #45.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216515185573888000",
+      "type": "Default",
+      "timestamp": "2024-03-10T22:37:02.0000000+00:00",
+      "content": "**Banned** — quietcobalt, `raid participation`, case #52.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216561406803968000",
+      "type": "Default",
+      "timestamp": "2024-03-11T01:40:42.0000000+00:00",
+      "content": "**Banned** — rapidcinder, `raid participation`, case #76.",
+      "author": {
+        "id": "100000000000000002",
+        "name": "pipeline-owl",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216565689188352000",
+      "type": "Default",
+      "timestamp": "2024-03-11T01:57:43.0000000+00:00",
+      "content": "confirmed the scam link, domain is two days old",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216574610472960000",
+      "type": "Default",
+      "timestamp": "2024-03-11T02:33:10.0000000+00:00",
+      "content": "second spam wave in an hour",
+      "author": {
+        "id": "200000000000000771",
+        "name": "ember_harbor",
+        "discriminator": "0000",
+        "nickname": "Ember Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216613458116608000",
+      "type": "Default",
+      "timestamp": "2024-03-11T05:07:32.0000000+00:00",
+      "content": "**Banned** — lucidsummit82 `spam`. Case #65.",
+      "author": {
+        "id": "100000000000000092",
+        "name": "pipeline-owl-4",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl 4",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216635989917696000",
+      "type": "Default",
+      "timestamp": "2024-03-11T06:37:04.0000000+00:00",
+      "content": "**Timed out** — juleslindqvist53 was Timed out for `scam link`. Case #16.",
+      "author": {
+        "id": "100000000000000074",
+        "name": "harborwatch-3",
+        "discriminator": "0000",
+        "nickname": "Harborwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216643006988288000",
+      "type": "Default",
+      "timestamp": "2024-03-11T07:04:57.0000000+00:00",
+      "content": "reviewing the overnight queue",
+      "author": {
+        "id": "200000000000000771",
+        "name": "ember_harbor",
+        "discriminator": "0000",
+        "nickname": "Ember Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216671687639040000",
+      "type": "Default",
+      "timestamp": "2024-03-11T08:58:55.0000000+00:00",
+      "content": "handing the queue over, nothing urgent",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216689660231680000",
+      "type": "Default",
+      "timestamp": "2024-03-11T10:10:20.0000000+00:00",
+      "content": "second spam wave in an hour",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216741229199360000",
+      "type": "Default",
+      "timestamp": "2024-03-11T13:35:15.0000000+00:00",
+      "content": "handing the queue over, nothing urgent",
+      "author": {
+        "id": "200000000000000219",
+        "name": "calmwren",
+        "discriminator": "0000",
+        "nickname": "Calm Wren",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216742344884224000",
+      "type": "Default",
+      "timestamp": "2024-03-11T13:39:41.0000000+00:00",
+      "content": "**Kicked** — gladlantern67 `scam link`. Case #89.",
+      "author": {
+        "id": "100000000000000074",
+        "name": "harborwatch-3",
+        "discriminator": "0000",
+        "nickname": "Harborwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216772887805952000",
+      "type": "Default",
+      "timestamp": "2024-03-11T15:41:03.0000000+00:00",
+      "content": "**Timed out** — amber_kestrel was Timed out for `ban evasion`. Case #86.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216774158680064000",
+      "type": "Default",
+      "timestamp": "2024-03-11T15:46:06.0000000+00:00",
+      "content": "second spam wave in an hour",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216777119858688000",
+      "type": "Default",
+      "timestamp": "2024-03-11T15:57:52.0000000+00:00",
+      "content": "**Timed out** — hollow_cobalt `raid participation`. Case #59.",
+      "author": {
+        "id": "100000000000000074",
+        "name": "harborwatch-3",
+        "discriminator": "0000",
+        "nickname": "Harborwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216805074894848000",
+      "type": "Default",
+      "timestamp": "2024-03-11T17:48:57.0000000+00:00",
+      "content": "**Timed out** — boldanvil9 `scam link`. Case #52.",
+      "author": {
+        "id": "100000000000000020",
+        "name": "stripe",
+        "discriminator": "0000",
+        "nickname": "Stripe",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216839262666752000",
+      "type": "Default",
+      "timestamp": "2024-03-11T20:04:48.0000000+00:00",
+      "content": "**Timed out** — quiet_marlin was Timed out for `scam link`. Case #45.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216846304903168000",
+      "type": "Default",
+      "timestamp": "2024-03-11T20:32:47.0000000+00:00",
+      "content": "**Timed out** — nimble_ivory `raid participation`. Case #52.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216849618403328000",
+      "type": "Default",
+      "timestamp": "2024-03-11T20:45:57.0000000+00:00",
+      "content": "**Banned** — opalkettle67 was Banned for `raid participation`. Case #11.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216883093143552000",
+      "type": "Default",
+      "timestamp": "2024-03-11T22:58:58.0000000+00:00",
+      "content": "reviewing the overnight queue",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216890126991360000",
+      "type": "Default",
+      "timestamp": "2024-03-11T23:26:55.0000000+00:00",
+      "content": "confirmed the scam link, domain is two days old",
+      "author": {
+        "id": "200000000000000771",
+        "name": "ember_harbor",
+        "discriminator": "0000",
+        "nickname": "Ember Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216927875727360000",
+      "type": "Default",
+      "timestamp": "2024-03-12T01:56:55.0000000+00:00",
+      "content": "confirmed the scam link, domain is two days old",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216972977078272000",
+      "type": "Default",
+      "timestamp": "2024-03-12T04:56:08.0000000+00:00",
+      "content": "reviewing the overnight queue",
+      "author": {
+        "id": "200000000000000940",
+        "name": "rustzephyr",
+        "discriminator": "0000",
+        "nickname": "Rust Zephyr",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216977792139264000",
+      "type": "Default",
+      "timestamp": "2024-03-12T05:15:16.0000000+00:00",
+      "content": "**Warned** — brisk_kestrel was Warned for `ban evasion`. Case #75.",
+      "author": {
+        "id": "100000000000000002",
+        "name": "pipeline-owl",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216990169530368000",
+      "type": "Default",
+      "timestamp": "2024-03-12T06:04:27.0000000+00:00",
+      "content": "**Warned** — novaraman `spam`. Case #35.",
+      "author": {
+        "id": "100000000000000029",
+        "name": "welcomer",
+        "discriminator": "0000",
+        "nickname": "Welcomer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217000554627072000",
+      "type": "Default",
+      "timestamp": "2024-03-12T06:45:43.0000000+00:00",
+      "content": "**Kicked** — vivid_summit `raid participation`. Case #69.",
+      "author": {
+        "id": "100000000000000002",
+        "name": "pipeline-owl",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217008091791360000",
+      "type": "Default",
+      "timestamp": "2024-03-12T07:15:40.0000000+00:00",
+      "content": "**Timed out** — ember_anvil47, `raid participation`, case #14.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217135829319680000",
+      "type": "Default",
+      "timestamp": "2024-03-12T15:43:15.0000000+00:00",
+      "content": "**Warned** — calmlantern78, `scam link`, case #81.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217146197639168000",
+      "type": "Default",
+      "timestamp": "2024-03-12T16:24:27.0000000+00:00",
+      "content": "reviewing the overnight queue",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217153776746496000",
+      "type": "Default",
+      "timestamp": "2024-03-12T16:54:34.0000000+00:00",
+      "content": "reviewing the overnight queue",
+      "author": {
+        "id": "200000000000000771",
+        "name": "ember_harbor",
+        "discriminator": "0000",
+        "nickname": "Ember Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217156029087744000",
+      "type": "Default",
+      "timestamp": "2024-03-12T17:03:31.0000000+00:00",
+      "content": "**Warned** — noork, `spam`, case #79.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217163096489984000",
+      "type": "Default",
+      "timestamp": "2024-03-12T17:31:36.0000000+00:00",
+      "content": "confirmed the scam link, domain is two days old",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217171812253696000",
+      "type": "Default",
+      "timestamp": "2024-03-12T18:06:14.0000000+00:00",
+      "content": "**Banned** — amberpine, `spam`, case #80.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217183258509312000",
+      "type": "Default",
+      "timestamp": "2024-03-12T18:51:43.0000000+00:00",
+      "content": "**Warned** — amber_kestrel, `spam`, case #36.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217197661749248000",
+      "type": "Default",
+      "timestamp": "2024-03-12T19:48:57.0000000+00:00",
+      "content": "**Banned** — quiet_thistle `scam link`. Case #47.",
+      "author": {
+        "id": "100000000000000020",
+        "name": "stripe",
+        "discriminator": "0000",
+        "nickname": "Stripe",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217242888929280000",
+      "type": "Default",
+      "timestamp": "2024-03-12T22:48:40.0000000+00:00",
+      "content": "confirmed the scam link, domain is two days old",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217267505299456000",
+      "type": "Default",
+      "timestamp": "2024-03-13T00:26:29.0000000+00:00",
+      "content": "reviewing the overnight queue",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217268780367872000",
+      "type": "Default",
+      "timestamp": "2024-03-13T00:31:33.0000000+00:00",
+      "content": "**Warned** — quietwren `ban evasion`. Case #49.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217280939655168000",
+      "type": "Default",
+      "timestamp": "2024-03-13T01:19:52.0000000+00:00",
+      "content": "**Timed out** — keenbadger `scam link`. Case #89.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217281040318464000",
+      "type": "Default",
+      "timestamp": "2024-03-13T01:20:16.0000000+00:00",
+      "content": "confirmed the scam link, domain is two days old",
+      "author": {
+        "id": "200000000000000940",
+        "name": "rustzephyr",
+        "discriminator": "0000",
+        "nickname": "Rust Zephyr",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217323725750272000",
+      "type": "Default",
+      "timestamp": "2024-03-13T04:09:53.0000000+00:00",
+      "content": "the raid filter caught a wave of new accounts",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217377156988928000",
+      "type": "Default",
+      "timestamp": "2024-03-13T07:42:12.0000000+00:00",
+      "content": "**Banned** — tomastanaka31, `raid participation`, case #35.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217417975955456000",
+      "type": "Default",
+      "timestamp": "2024-03-13T10:24:24.0000000+00:00",
+      "content": "**Timed out** — mellow_lantern27 was Timed out for `scam link`. Case #36.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217432207228928000",
+      "type": "Default",
+      "timestamp": "2024-03-13T11:20:57.0000000+00:00",
+      "content": "**Kicked** — slatethistle, `raid participation`, case #83.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217456613883904000",
+      "type": "Default",
+      "timestamp": "2024-03-13T12:57:56.0000000+00:00",
+      "content": "**Timed out** — zestygable88 `spam`. Case #56.",
+      "author": {
+        "id": "100000000000000083",
+        "name": "statuspage-3",
+        "discriminator": "0000",
+        "nickname": "Statuspage 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217463454793728000",
+      "type": "Default",
+      "timestamp": "2024-03-13T13:25:07.0000000+00:00",
+      "content": "**Banned** — cleverkestrel `scam link`. Case #86.",
+      "author": {
+        "id": "100000000000000065",
+        "name": "modwatch-3",
+        "discriminator": "0000",
+        "nickname": "Modwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217476633296896000",
+      "type": "Default",
+      "timestamp": "2024-03-13T14:17:29.0000000+00:00",
+      "content": "**Banned** — opal_kettle was Banned for `spam`. Case #10.",
+      "author": {
+        "id": "100000000000000092",
+        "name": "pipeline-owl-4",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl 4",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217499651637248000",
+      "type": "Default",
+      "timestamp": "2024-03-13T15:48:57.0000000+00:00",
+      "content": "**Timed out** — hollow_meadow, `raid participation`, case #82.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217500842819584000",
+      "type": "Default",
+      "timestamp": "2024-03-13T15:53:41.0000000+00:00",
+      "content": "**Warned** — devonito `spam`. Case #60.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217542274154496000",
+      "type": "Default",
+      "timestamp": "2024-03-13T18:38:19.0000000+00:00",
+      "content": "**Banned** — swift_reed was Banned for `ban evasion`. Case #69.",
+      "author": {
+        "id": "100000000000000065",
+        "name": "modwatch-3",
+        "discriminator": "0000",
+        "nickname": "Modwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217548397838336000",
+      "type": "Default",
+      "timestamp": "2024-03-13T19:02:39.0000000+00:00",
+      "content": "**Banned** — quiettundra, `spam`, case #15.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217568647938048000",
+      "type": "Default",
+      "timestamp": "2024-03-13T20:23:07.0000000+00:00",
+      "content": "**Timed out** — boldorchid was Timed out for `scam link`. Case #25.",
+      "author": {
+        "id": "100000000000000029",
+        "name": "welcomer",
+        "discriminator": "0000",
+        "nickname": "Welcomer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217574926811136000",
+      "type": "Default",
+      "timestamp": "2024-03-13T20:48:04.0000000+00:00",
+      "content": "**Banned** — nimble_zephyr, `ban evasion`, case #83.",
+      "author": {
+        "id": "100000000000000002",
+        "name": "pipeline-owl",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217587522306048000",
+      "type": "Default",
+      "timestamp": "2024-03-13T21:38:07.0000000+00:00",
+      "content": "**Warned** — vivid_cinder70 was Warned for `raid participation`. Case #41.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217614613315584000",
+      "type": "Default",
+      "timestamp": "2024-03-13T23:25:46.0000000+00:00",
+      "content": "the raid filter caught a wave of new accounts",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217706007199744000",
+      "type": "Default",
+      "timestamp": "2024-03-14T05:28:56.0000000+00:00",
+      "content": "**Kicked** — opalthistle83 was Kicked for `scam link`. Case #76.",
+      "author": {
+        "id": "100000000000000002",
+        "name": "pipeline-owl",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217725191946240000",
+      "type": "Default",
+      "timestamp": "2024-03-14T06:45:10.0000000+00:00",
+      "content": "**Banned** — faint_willow `spam`. Case #16.",
+      "author": {
+        "id": "100000000000000092",
+        "name": "pipeline-owl-4",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl 4",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217747639861248000",
+      "type": "Default",
+      "timestamp": "2024-03-14T08:14:22.0000000+00:00",
+      "content": "**Banned** — idlecobalt, `raid participation`, case #35.",
+      "author": {
+        "id": "100000000000000002",
+        "name": "pipeline-owl",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217749481160704000",
+      "type": "Default",
+      "timestamp": "2024-03-14T08:21:41.0000000+00:00",
+      "content": "**Warned** — kestrelnovak11, `raid participation`, case #87.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217758612160512000",
+      "type": "Default",
+      "timestamp": "2024-03-14T08:57:58.0000000+00:00",
+      "content": "**Kicked** — wry_vellum47 `ban evasion`. Case #77.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217780351238144000",
+      "type": "Default",
+      "timestamp": "2024-03-14T10:24:21.0000000+00:00",
+      "content": "handing the queue over, nothing urgent",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217810130796544000",
+      "type": "Default",
+      "timestamp": "2024-03-14T12:22:41.0000000+00:00",
+      "content": "second spam wave in an hour",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217817412108288000",
+      "type": "Default",
+      "timestamp": "2024-03-14T12:51:37.0000000+00:00",
+      "content": "**Warned** — rapid_kestrel `scam link`. Case #29.",
+      "author": {
+        "id": "100000000000000020",
+        "name": "stripe",
+        "discriminator": "0000",
+        "nickname": "Stripe",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217822147477504000",
+      "type": "Default",
+      "timestamp": "2024-03-14T13:10:26.0000000+00:00",
+      "content": "**Kicked** — arctic_pebble, `raid participation`, case #55.",
+      "author": {
+        "id": "100000000000000002",
+        "name": "pipeline-owl",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217827306471424000",
+      "type": "Default",
+      "timestamp": "2024-03-14T13:30:56.0000000+00:00",
+      "content": "**Kicked** — zestyjuniper `raid participation`. Case #45.",
+      "author": {
+        "id": "100000000000000002",
+        "name": "pipeline-owl",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217834260627456000",
+      "type": "Default",
+      "timestamp": "2024-03-14T13:58:34.0000000+00:00",
+      "content": "**Banned** — boldanvil9, `ban evasion`, case #35.",
+      "author": {
+        "id": "100000000000000020",
+        "name": "stripe",
+        "discriminator": "0000",
+        "nickname": "Stripe",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217837020479488000",
+      "type": "Default",
+      "timestamp": "2024-03-14T14:09:32.0000000+00:00",
+      "content": "**Timed out** — lucidorchid, `ban evasion`, case #35.",
+      "author": {
+        "id": "100000000000000065",
+        "name": "modwatch-3",
+        "discriminator": "0000",
+        "nickname": "Modwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217902128660480000",
+      "type": "Default",
+      "timestamp": "2024-03-14T18:28:15.0000000+00:00",
+      "content": "**Kicked** — briskharbor `spam`. Case #23.",
+      "author": {
+        "id": "100000000000000092",
+        "name": "pipeline-owl-4",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl 4",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217912559894528000",
+      "type": "Default",
+      "timestamp": "2024-03-14T19:09:42.0000000+00:00",
+      "content": "**Warned** — briskjuniper was Warned for `scam link`. Case #88.",
+      "author": {
+        "id": "100000000000000002",
+        "name": "pipeline-owl",
+        "discriminator": "0000",
+        "nickname": "Pipeline Owl",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217913935626240000",
+      "type": "Default",
+      "timestamp": "2024-03-14T19:15:10.0000000+00:00",
+      "content": "**Kicked** — opal_pine `raid participation`. Case #60.",
+      "author": {
+        "id": "100000000000000038",
+        "name": "pulse-2",
+        "discriminator": "0000",
+        "nickname": "Pulse 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217922341011456000",
+      "type": "Default",
+      "timestamp": "2024-03-14T19:48:34.0000000+00:00",
+      "content": "reviewing the overnight queue",
+      "author": {
+        "id": "200000000000000269",
+        "name": "lenar",
+        "discriminator": "0000",
+        "nickname": "Lena R",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217925843255296000",
+      "type": "Default",
+      "timestamp": "2024-03-14T20:02:29.0000000+00:00",
+      "content": "**Warned** — rapid_quarry, `spam`, case #81.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217925855838208000",
+      "type": "Default",
+      "timestamp": "2024-03-14T20:02:32.0000000+00:00",
+      "content": "**Warned** — slateanvil, `raid participation`, case #57.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217925855838208001",
+      "type": "Default",
+      "timestamp": "2024-03-14T20:02:32.0000000+00:00",
+      "content": "**Warned** — hanaito `raid participation`. Case #29.",
+      "author": {
+        "id": "100000000000000056",
+        "name": "remindme-2",
+        "discriminator": "0000",
+        "nickname": "Remindme 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217937604083712000",
+      "type": "Default",
+      "timestamp": "2024-03-14T20:49:13.0000000+00:00",
+      "content": "**Timed out** — opalgable21 `ban evasion`. Case #80.",
+      "author": {
+        "id": "100000000000000065",
+        "name": "modwatch-3",
+        "discriminator": "0000",
+        "nickname": "Modwatch 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217944012980224000",
+      "type": "Default",
+      "timestamp": "2024-03-14T21:14:41.0000000+00:00",
+      "content": "second spam wave in an hour",
+      "author": {
+        "id": "200000000000000793",
+        "name": "idlekettle",
+        "discriminator": "0000",
+        "nickname": "Idle Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217957669634048000",
+      "type": "Default",
+      "timestamp": "2024-03-14T22:08:57.0000000+00:00",
+      "content": "**Banned** — rustferry, `raid participation`, case #42.",
+      "author": {
+        "id": "100000000000000011",
+        "name": "warden",
+        "discriminator": "0000",
+        "nickname": "Warden",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217964837699584000",
+      "type": "Default",
+      "timestamp": "2024-03-14T22:37:26.0000000+00:00",
+      "content": "**Banned** — nimblecobalt `scam link`. Case #85.",
+      "author": {
+        "id": "100000000000000047",
+        "name": "grapevine-2",
+        "discriminator": "0000",
+        "nickname": "Grapevine 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    }
+  ],
+  "messageCount": 250
+}

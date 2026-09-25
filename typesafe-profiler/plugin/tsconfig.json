@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "rootDir": "..",
+    "outDir": "lib",
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  },
+  "include": [
+    "index.ts",
+    "../src/types.ts",
+    "../src/dimensions.ts",
+    "../src/botdetect.ts",
+    "../src/guard.ts",
+    "../src/parse.ts",
+    "../src/aggregate.ts",
+    "../src/schema.ts",
+    "../src/report.ts",
+    "../src/patterns.ts"
+  ]
+}

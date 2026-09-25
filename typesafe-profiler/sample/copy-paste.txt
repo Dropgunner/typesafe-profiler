@@ -1,0 +1,9 @@
+alice — Today at 10:02 AM
+I keep getting a 500 error when I sync Stripe. The logs say "invalid_grant" but the token is fresh.
+
+alice — Today at 10:04 AM
+Actually, I rotated the client secret last week and forgot to update the env file.
+Let me update it and retry.
+
+alice — Today at 10:06 AM
+That fixed it. Updating the env var and restarting the worker cleared the error.

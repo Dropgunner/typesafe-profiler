@@ -1,0 +1,36 @@
+{
+  "name": "@deepseek-ai/dsh-typesafe-profiler",
+  "version": "0.1.0",
+  "description": "TypeSafe classification, scoring, psychological profiling, pruning, compaction, and generation tools for a local Harness profile",
+  "private": true,
+  "type": "module",
+  "main": "lib/plugin/index.js",
+  "types": "lib/plugin/index.d.ts",
+  "exports": {
+    ".": "./lib/plugin/index.js"
+  },
+  "files": [
+    "lib",
+    "index.ts",
+    "cordis.patch.yml",
+    "README.md",
+    "setup.mjs"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "4.0.2",
+    "@deepseek-ai/dsh-tools": "0.1.6-alpha.1",
+    "@deepseek-ai/schemastery": "3.18.2"
+  },
+  "dependencies": {
+    "@typesafe-ai/sdk": "0.6.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test tests/"
+  }
+}
