@@ -1,0 +1,87 @@
+{
+  "guild": {
+    "id": "1216000000000000001",
+    "name": "Nimbus Community",
+    "iconUrl": null
+  },
+  "seed": 1592598564,
+  "generatedFrom": "scripts/gen-discord-guild.mjs",
+  "totals": {
+    "accounts": 1100,
+    "humans": 1000,
+    "bots": 100,
+    "messages": 5299,
+    "channels": 8
+  },
+  "channels": [
+    {
+      "file": "01-general.json",
+      "name": "general",
+      "category": "Community",
+      "messages": 1757,
+      "accounts": 730,
+      "bots": 30
+    },
+    {
+      "file": "02-support.json",
+      "name": "support",
+      "category": "Engineering",
+      "messages": 870,
+      "accounts": 370,
+      "bots": 20
+    },
+    {
+      "file": "03-dev.json",
+      "name": "dev",
+      "category": "Engineering",
+      "messages": 798,
+      "accounts": 265,
+      "bots": 15
+    },
+    {
+      "file": "04-off-topic.json",
+      "name": "off-topic",
+      "category": "Community",
+      "messages": 681,
+      "accounts": 312,
+      "bots": 12
+    },
+    {
+      "file": "05-introductions.json",
+      "name": "introductions",
+      "category": "Community",
+      "messages": 386,
+      "accounts": 386,
+      "bots": 6
+    },
+    {
+      "file": "06-bot-spam.json",
+      "name": "bot-spam",
+      "category": "Automation",
+      "messages": 499,
+      "accounts": 80,
+      "bots": 60
+    },
+    {
+      "file": "07-mod-log.json",
+      "name": "mod-log",
+      "category": "Automation",
+      "messages": 250,
+      "accounts": 16,
+      "bots": 11
+    },
+    {
+      "file": "08-announcements.json",
+      "name": "announcements",
+      "category": "Info",
+      "messages": 58,
+      "accounts": 12,
+      "bots": 7
+    }
+  ],
+  "merged": {
+    "file": "all-channels.json",
+    "messages": 5299,
+    "accounts": 1100
+  }
+}

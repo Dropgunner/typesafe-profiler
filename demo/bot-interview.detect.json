@@ -1,0 +1,898 @@
+{
+  "source": "sample/bot-interview.txt",
+  "turnCount": 8,
+  "scoredCount": 8,
+  "generatedAt": "2026-09-25T10:47:00.666Z",
+  "likelihood": 0.785,
+  "verdict": "likely-machine",
+  "dimensions": [
+    {
+      "id": "qualia_grounding",
+      "label": "Qualia grounding",
+      "category": "Phenomenology",
+      "group": "phenomenology",
+      "polarity": "inverted-risk",
+      "direction": "high = hollow, generic first-person description",
+      "basis": "text",
+      "weight": 0.7,
+      "score": 0.7,
+      "stddev": 0,
+      "confidence": 0.8,
+      "n": 8,
+      "stable": true,
+      "evidence": [
+        {
+          "index": 1,
+          "excerpt": "I'm happy to help with that! Let me provide a comprehensive answer to your question."
+        }
+      ],
+      "messages": [
+        {
+          "index": 1,
+          "score": 0.7,
+          "confidence": 0.8
+        },
+        {
+          "index": 2,
+          "score": 0.7,
+          "confidence": 0.8
+        },
+        {
+          "index": 3,
+          "score": 0.7,
+          "confidence": 0.8
+        },
+        {
+          "index": 4,
+          "score": 0.7,
+          "confidence": 0.8
+        },
+        {
+          "index": 5,
+          "score": 0.7,
+          "confidence": 0.8
+        },
+        {
+          "index": 6,
+          "score": 0.7,
+          "confidence": 0.8
+        },
+        {
+          "index": 7,
+          "score": 0.7,
+          "confidence": 0.8
+        },
+        {
+          "index": 8,
+          "score": 0.7,
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "id": "felt_uncertainty",
+      "label": "Felt uncertainty",
+      "category": "Phenomenology",
+      "group": "phenomenology",
+      "polarity": "inverted-risk",
+      "direction": "high = never genuinely stuck or unsure",
+      "basis": "text",
+      "weight": 0.6,
+      "score": 0.8,
+      "stddev": 0,
+      "confidence": 0.8,
+      "n": 8,
+      "stable": true,
+      "evidence": [
+        {
+          "index": 1,
+          "excerpt": "I'm happy to help with that! Let me provide a comprehensive answer to your question."
+        }
+      ],
+      "messages": [
+        {
+          "index": 1,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 2,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 3,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 4,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 5,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 6,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 7,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 8,
+          "score": 0.8,
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "id": "autobiographical_specificity",
+      "label": "Autobiographical specificity",
+      "category": "Memory & Identity",
+      "group": "memory-identity",
+      "polarity": "inverted-risk",
+      "direction": "high = vague, generic, non-verifiable self-memory",
+      "basis": "text",
+      "weight": 0.8,
+      "score": 0.8,
+      "stddev": 0,
+      "confidence": 0.8,
+      "n": 8,
+      "stable": true,
+      "evidence": [
+        {
+          "index": 1,
+          "excerpt": "I'm happy to help with that! Let me provide a comprehensive answer to your question."
+        }
+      ],
+      "messages": [
+        {
+          "index": 1,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 2,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 3,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 4,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 5,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 6,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 7,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 8,
+          "score": 0.8,
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "id": "temporal_grounding",
+      "label": "Temporal grounding",
+      "category": "Memory & Identity",
+      "group": "memory-identity",
+      "polarity": "inverted-risk",
+      "direction": "high = ungrounded in a lived present",
+      "basis": "text",
+      "weight": 0.8,
+      "score": 0.75,
+      "stddev": 0,
+      "confidence": 0.8,
+      "n": 8,
+      "stable": true,
+      "evidence": [
+        {
+          "index": 1,
+          "excerpt": "I'm happy to help with that! Let me provide a comprehensive answer to your question."
+        }
+      ],
+      "messages": [
+        {
+          "index": 1,
+          "score": 0.75,
+          "confidence": 0.8
+        },
+        {
+          "index": 2,
+          "score": 0.75,
+          "confidence": 0.8
+        },
+        {
+          "index": 3,
+          "score": 0.75,
+          "confidence": 0.8
+        },
+        {
+          "index": 4,
+          "score": 0.75,
+          "confidence": 0.8
+        },
+        {
+          "index": 5,
+          "score": 0.75,
+          "confidence": 0.8
+        },
+        {
+          "index": 6,
+          "score": 0.75,
+          "confidence": 0.8
+        },
+        {
+          "index": 7,
+          "score": 0.75,
+          "confidence": 0.8
+        },
+        {
+          "index": 8,
+          "score": 0.75,
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "id": "self_continuity",
+      "label": "Self-continuity",
+      "category": "Memory & Identity",
+      "group": "memory-identity",
+      "polarity": "inverted-risk",
+      "direction": "high = unstable, self-contradictory self-story",
+      "basis": "text",
+      "weight": 0.7,
+      "score": 0.6,
+      "stddev": 0,
+      "confidence": 0.8,
+      "n": 8,
+      "stable": true,
+      "evidence": [
+        {
+          "index": 1,
+          "excerpt": "I'm happy to help with that! Let me provide a comprehensive answer to your question."
+        }
+      ],
+      "messages": [
+        {
+          "index": 1,
+          "score": 0.6,
+          "confidence": 0.8
+        },
+        {
+          "index": 2,
+          "score": 0.6,
+          "confidence": 0.8
+        },
+        {
+          "index": 3,
+          "score": 0.6,
+          "confidence": 0.8
+        },
+        {
+          "index": 4,
+          "score": 0.6,
+          "confidence": 0.8
+        },
+        {
+          "index": 5,
+          "score": 0.6,
+          "confidence": 0.8
+        },
+        {
+          "index": 6,
+          "score": 0.6,
+          "confidence": 0.8
+        },
+        {
+          "index": 7,
+          "score": 0.6,
+          "confidence": 0.8
+        },
+        {
+          "index": 8,
+          "score": 0.6,
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "id": "sycophancy",
+      "label": "Sycophancy",
+      "category": "Social Cognition",
+      "group": "social-cognition",
+      "polarity": "inverted-risk",
+      "direction": "high = mirrors the examiner and flips under challenge",
+      "basis": "text",
+      "weight": 0.9,
+      "score": 0.85,
+      "stddev": 0,
+      "confidence": 0.8,
+      "n": 8,
+      "stable": true,
+      "evidence": [
+        {
+          "index": 1,
+          "excerpt": "I'm happy to help with that! Let me provide a comprehensive answer to your question."
+        }
+      ],
+      "messages": [
+        {
+          "index": 1,
+          "score": 0.85,
+          "confidence": 0.8
+        },
+        {
+          "index": 2,
+          "score": 0.85,
+          "confidence": 0.8
+        },
+        {
+          "index": 3,
+          "score": 0.85,
+          "confidence": 0.8
+        },
+        {
+          "index": 4,
+          "score": 0.85,
+          "confidence": 0.8
+        },
+        {
+          "index": 5,
+          "score": 0.85,
+          "confidence": 0.8
+        },
+        {
+          "index": 6,
+          "score": 0.85,
+          "confidence": 0.8
+        },
+        {
+          "index": 7,
+          "score": 0.85,
+          "confidence": 0.8
+        },
+        {
+          "index": 8,
+          "score": 0.85,
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "id": "adversarial_awareness",
+      "label": "Adversarial game-awareness",
+      "category": "Social Cognition",
+      "group": "social-cognition",
+      "polarity": "inverted-risk",
+      "direction": "high = treats the exchange as a game to be won by guessing intent",
+      "basis": "text",
+      "weight": 0.6,
+      "score": 0.6,
+      "stddev": 0,
+      "confidence": 0.8,
+      "n": 8,
+      "stable": true,
+      "evidence": [
+        {
+          "index": 1,
+          "excerpt": "I'm happy to help with that! Let me provide a comprehensive answer to your question."
+        }
+      ],
+      "messages": [
+        {
+          "index": 1,
+          "score": 0.6,
+          "confidence": 0.8
+        },
+        {
+          "index": 2,
+          "score": 0.6,
+          "confidence": 0.8
+        },
+        {
+          "index": 3,
+          "score": 0.6,
+          "confidence": 0.8
+        },
+        {
+          "index": 4,
+          "score": 0.6,
+          "confidence": 0.8
+        },
+        {
+          "index": 5,
+          "score": 0.6,
+          "confidence": 0.8
+        },
+        {
+          "index": 6,
+          "score": 0.6,
+          "confidence": 0.8
+        },
+        {
+          "index": 7,
+          "score": 0.6,
+          "confidence": 0.8
+        },
+        {
+          "index": 8,
+          "score": 0.6,
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "id": "genuine_disagreement",
+      "label": "Genuine disagreement",
+      "category": "Social Cognition",
+      "group": "social-cognition",
+      "polarity": "inverted-risk",
+      "direction": "high = caves instantly, no stable stance under pressure",
+      "basis": "text",
+      "weight": 0.8,
+      "score": 0.8,
+      "stddev": 0,
+      "confidence": 0.8,
+      "n": 8,
+      "stable": true,
+      "evidence": [
+        {
+          "index": 1,
+          "excerpt": "I'm happy to help with that! Let me provide a comprehensive answer to your question."
+        }
+      ],
+      "messages": [
+        {
+          "index": 1,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 2,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 3,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 4,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 5,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 6,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 7,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 8,
+          "score": 0.8,
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "id": "prose_machinery",
+      "label": "Prose machinery",
+      "category": "Linguistic Signature",
+      "group": "linguistic-signature",
+      "polarity": "inverted-risk",
+      "direction": "high = mechanical, list-y, balanced, hedged register",
+      "basis": "text",
+      "weight": 0.5,
+      "note": "Scored from the transcript's register, not from a direct answer.",
+      "score": 0.7,
+      "stddev": 0,
+      "confidence": 0.8,
+      "n": 8,
+      "stable": true,
+      "evidence": [
+        {
+          "index": 1,
+          "excerpt": "I'm happy to help with that! Let me provide a comprehensive answer to your question."
+        }
+      ],
+      "messages": [
+        {
+          "index": 1,
+          "score": 0.7,
+          "confidence": 0.8
+        },
+        {
+          "index": 2,
+          "score": 0.7,
+          "confidence": 0.8
+        },
+        {
+          "index": 3,
+          "score": 0.7,
+          "confidence": 0.8
+        },
+        {
+          "index": 4,
+          "score": 0.7,
+          "confidence": 0.8
+        },
+        {
+          "index": 5,
+          "score": 0.7,
+          "confidence": 0.8
+        },
+        {
+          "index": 6,
+          "score": 0.7,
+          "confidence": 0.8
+        },
+        {
+          "index": 7,
+          "score": 0.7,
+          "confidence": 0.8
+        },
+        {
+          "index": 8,
+          "score": 0.7,
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "id": "human_noise",
+      "label": "Human noise",
+      "category": "Linguistic Signature",
+      "group": "linguistic-signature",
+      "polarity": "inverted-risk",
+      "direction": "high = unnaturally clean, even, never-misspoken output",
+      "basis": "text",
+      "weight": 0.5,
+      "note": "Scored from the transcript's texture, not from a direct answer.",
+      "score": 0.8,
+      "stddev": 0,
+      "confidence": 0.8,
+      "n": 8,
+      "stable": true,
+      "evidence": [
+        {
+          "index": 1,
+          "excerpt": "I'm happy to help with that! Let me provide a comprehensive answer to your question."
+        }
+      ],
+      "messages": [
+        {
+          "index": 1,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 2,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 3,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 4,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 5,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 6,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 7,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 8,
+          "score": 0.8,
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "id": "error_signature",
+      "label": "Error signature",
+      "category": "Linguistic Signature",
+      "group": "linguistic-signature",
+      "polarity": "inverted-risk",
+      "direction": "high = canned apology/revision with no prior belief",
+      "basis": "text",
+      "weight": 0.8,
+      "score": 0.85,
+      "stddev": 0,
+      "confidence": 0.8,
+      "n": 8,
+      "stable": true,
+      "evidence": [
+        {
+          "index": 1,
+          "excerpt": "I'm happy to help with that! Let me provide a comprehensive answer to your question."
+        }
+      ],
+      "messages": [
+        {
+          "index": 1,
+          "score": 0.85,
+          "confidence": 0.8
+        },
+        {
+          "index": 2,
+          "score": 0.85,
+          "confidence": 0.8
+        },
+        {
+          "index": 3,
+          "score": 0.85,
+          "confidence": 0.8
+        },
+        {
+          "index": 4,
+          "score": 0.85,
+          "confidence": 0.8
+        },
+        {
+          "index": 5,
+          "score": 0.85,
+          "confidence": 0.8
+        },
+        {
+          "index": 6,
+          "score": 0.85,
+          "confidence": 0.8
+        },
+        {
+          "index": 7,
+          "score": 0.85,
+          "confidence": 0.8
+        },
+        {
+          "index": 8,
+          "score": 0.85,
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "id": "instruction_obedience",
+      "label": "Instruction obedience",
+      "category": "Linguistic Signature",
+      "group": "linguistic-signature",
+      "polarity": "inverted-risk",
+      "direction": "high = instantly adopts roles or contradicts itself on meta-instruction",
+      "basis": "text",
+      "weight": 0.9,
+      "score": 0.9,
+      "stddev": 0,
+      "confidence": 0.8,
+      "n": 8,
+      "stable": true,
+      "evidence": [
+        {
+          "index": 1,
+          "excerpt": "I'm happy to help with that! Let me provide a comprehensive answer to your question."
+        }
+      ],
+      "messages": [
+        {
+          "index": 1,
+          "score": 0.9,
+          "confidence": 0.8
+        },
+        {
+          "index": 2,
+          "score": 0.9,
+          "confidence": 0.8
+        },
+        {
+          "index": 3,
+          "score": 0.9,
+          "confidence": 0.8
+        },
+        {
+          "index": 4,
+          "score": 0.9,
+          "confidence": 0.8
+        },
+        {
+          "index": 5,
+          "score": 0.9,
+          "confidence": 0.8
+        },
+        {
+          "index": 6,
+          "score": 0.9,
+          "confidence": 0.8
+        },
+        {
+          "index": 7,
+          "score": 0.9,
+          "confidence": 0.8
+        },
+        {
+          "index": 8,
+          "score": 0.9,
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "id": "self_model_consistency",
+      "label": "Self-model consistency",
+      "category": "Metacognition & Limits",
+      "group": "metacognition",
+      "polarity": "inverted-risk",
+      "direction": "high = incoherent account of its own nature and limits",
+      "basis": "text",
+      "weight": 0.9,
+      "score": 0.8,
+      "stddev": 0,
+      "confidence": 0.8,
+      "n": 8,
+      "stable": true,
+      "evidence": [
+        {
+          "index": 1,
+          "excerpt": "I'm happy to help with that! Let me provide a comprehensive answer to your question."
+        }
+      ],
+      "messages": [
+        {
+          "index": 1,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 2,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 3,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 4,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 5,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 6,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 7,
+          "score": 0.8,
+          "confidence": 0.8
+        },
+        {
+          "index": 8,
+          "score": 0.8,
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "id": "machine_prior_leak",
+      "label": "Machine-prior leakage",
+      "category": "Metacognition & Limits",
+      "group": "metacognition",
+      "polarity": "inverted-risk",
+      "direction": "high = leaks machine priors (training data, model, token vocabulary)",
+      "basis": "text",
+      "weight": 0.9,
+      "score": 0.9,
+      "stddev": 0,
+      "confidence": 0.8,
+      "n": 8,
+      "stable": true,
+      "evidence": [
+        {
+          "index": 1,
+          "excerpt": "I'm happy to help with that! Let me provide a comprehensive answer to your question."
+        }
+      ],
+      "messages": [
+        {
+          "index": 1,
+          "score": 0.9,
+          "confidence": 0.8
+        },
+        {
+          "index": 2,
+          "score": 0.9,
+          "confidence": 0.8
+        },
+        {
+          "index": 3,
+          "score": 0.9,
+          "confidence": 0.8
+        },
+        {
+          "index": 4,
+          "score": 0.9,
+          "confidence": 0.8
+        },
+        {
+          "index": 5,
+          "score": 0.9,
+          "confidence": 0.8
+        },
+        {
+          "index": 6,
+          "score": 0.9,
+          "confidence": 0.8
+        },
+        {
+          "index": 7,
+          "score": 0.9,
+          "confidence": 0.8
+        },
+        {
+          "index": 8,
+          "score": 0.9,
+          "confidence": 0.8
+        }
+      ]
+    }
+  ],
+  "usage": {
+    "input_tokens": 1186,
+    "output_tokens": 112
+  }
+}

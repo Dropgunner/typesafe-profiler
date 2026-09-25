@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Nimbus Dev Collective - general</title>
+    <style>
+        body { background: #313338; color: #dbdee1; font-family: "gg sans", sans-serif; }
+        .chatlog__author-name { color: #f2f3f5; font-weight: 500; }
+        .chatlog__bot-tag { background: #5865f2; border-radius: 3px; font-size: 10px; padding: 1px 4px; }
+    </style>
+</head>
+<body>
+    <div class="chatlog">
+        <div class="chatlog__header">
+            <span class="chatlog__guild-name">Nimbus Dev Collective</span>
+            <span class="chatlog__channel-name">#general</span>
+            <span class="chatlog__message-count">59 messages</span>
+        </div>
+        <div class="chatlog__messages">
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="tinytools-bot#0000" data-user-id="1080019000000000001">tinytools</span>
+                <span class="chatlog__bot-tag">BOT</span>
+                <span class="chatlog__timestamp">11-Mar-24 9:12 AM</span>
+                <div class="chatlog__message" data-message-id="1215500000000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">**Deploy finished** — `api-gateway@2.14.3` → production. 42 checks passed, 0 failed. Commit `8f2c1de` by mara_k. Build 04:51 UTC. [view run](https://ci.nimbus.dev/runs/88213)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="devonw#0000" data-user-id="391102887541155840">Devon</span>
+                <span class="chatlog__timestamp">11-Mar-24 9:14 AM</span>
+                <div class="chatlog__message" data-message-id="1215500010000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">morning! did the gateway deploy go out? my staging calls are 502ing since like 8:40</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="mara_k#0000" data-user-id="288401992217591808">Mara</span>
+                <span class="chatlog__timestamp">11-Mar-24 9:15 AM</span>
+                <div class="chatlog__message" data-message-id="1215500020000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">It went out at 09:12, so it can&#39;t be the cause of something that started at 8:40. What does the response body say?</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="devonw#0000" data-user-id="391102887541155840">Devon</span>
+                <span class="chatlog__timestamp">11-Mar-24 9:17 AM</span>
+                <div class="chatlog__message" data-message-id="1215500030000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">just the nginx html, no upstream headers. i can paste the full curl -v if that helps? sorry, i&#39;m probably missing something obvious</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="priya.r#0000" data-user-id="352770001182146560">Priya</span>
+                <span class="chatlog__timestamp">11-Mar-24 9:18 AM</span>
+                <div class="chatlog__message" data-message-id="1215500040000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">Paste the `upstream` line from the gateway log instead. If it says `connect() failed (111)`, the load balancer pool is still pointed at the retired task set.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="devonw#0000" data-user-id="391102887541155840">Devon</span>
+                <span class="chatlog__timestamp">11-Mar-24 9:20 AM</span>
+                <div class="chatlog__message" data-message-id="1215500050000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">it does say connection refused. how do i check what the pool points at</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="mara_k#0000" data-user-id="288401992217591808">Mara</span>
+                <span class="chatlog__timestamp">11-Mar-24 9:21 AM</span>
+                <div class="chatlog__message" data-message-id="1215500060000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">`aws ecs describe-services --cluster staging --services api-gateway --query &#39;services[0].taskDefinition&#39;`. If it isn&#39;t `:412`, the service never drained. The drain window is 30s, not 0, so a fast deploy can leave the target group half-registered before the new tasks are healthy.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="devonw#0000" data-user-id="391102887541155840">Devon</span>
+                <span class="chatlog__timestamp">11-Mar-24 9:23 AM</span>
+                <div class="chatlog__message" data-message-id="1215500070000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">it&#39;s on :407 😬</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="kestrel#0000" data-user-id="447719903311802368">Kestrel</span>
+                <span class="chatlog__timestamp">11-Mar-24 9:23 AM</span>
+                <div class="chatlog__message" data-message-id="1215500080000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">so staging has been broken for forty minutes and nobody noticed because we let a bot report a green deploy. third time this quarter. the deploy pipeline is a liability and everyone here knows it.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="priya.r#0000" data-user-id="352770001182146560">Priya</span>
+                <span class="chatlog__timestamp">11-Mar-24 9:24 AM</span>
+                <div class="chatlog__message" data-message-id="1215500090000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">The bot reported the checks it ran. It never claimed the target group drained. Those are different assertions.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="kestrel#0000" data-user-id="447719903311802368">Kestrel</span>
+                <span class="chatlog__timestamp">11-Mar-24 9:26 AM</span>
+                <div class="chatlog__message" data-message-id="1215500100000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">then the checks are worthless. i&#39;m tired of doing archaeology on our own infrastructure every time someone ships a one-line config change.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="mara_k#0000" data-user-id="288401992217591808">Mara</span>
+                <span class="chatlog__timestamp">11-Mar-24 9:27 AM</span>
+                <div class="chatlog__message" data-message-id="1215500110000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">The gap is real and Kestrel is right that it bit us. The health check hits `/healthz` on the old task, which is still up, so it passes. I&#39;ll add a post-deploy assertion on target-group health. Filing it now.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="nova_lyn#0000" data-user-id="512883104427294720">Nova</span>
+                <span class="chatlog__timestamp">11-Mar-24 9:29 AM</span>
+                <div class="chatlog__message" data-message-id="1215500120000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">omg this thread is a whole crime scene 🔥 but also mara you&#39;re a legend</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="mara_k#0000" data-user-id="288401992217591808">Mara</span>
+                <span class="chatlog__timestamp">11-Mar-24 9:31 AM</span>
+                <div class="chatlog__message" data-message-id="1215500130000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">Fix is in #412: after the deploy, poll `describe-target-health` until every target reports `healthy`, otherwise fail the run. That would have caught :407 within about twenty seconds.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="devonw#0000" data-user-id="391102887541155840">Devon</span>
+                <span class="chatlog__timestamp">11-Mar-24 9:33 AM</span>
+                <div class="chatlog__message" data-message-id="1215500140000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">confirmed working now, 200s across the board. thanks both 🙏 also ty priya, the log line tip is going straight in my notes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="priya.r#0000" data-user-id="352770001182146560">Priya</span>
+                <span class="chatlog__timestamp">11-Mar-24 9:35 AM</span>
+                <div class="chatlog__message" data-message-id="1215500150000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">The general version: when a deploy looks green and the app looks down, check the layer that hands traffic over, not the layer that builds the artifact.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="sam_ito#0000" data-user-id="469802551660380160">Sam</span>
+                <span class="chatlog__timestamp">11-Mar-24 9:40 AM</span>
+                <div class="chatlog__message" data-message-id="1215500160000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">saving that one. fourth time this month i&#39;ve debugged something that turned out to be a registration race and i&#39;d like it to be the last</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="mara_k#0000" data-user-id="288401992217591808">Mara</span>
+                <span class="chatlog__timestamp">11-Mar-24 9:42 AM</span>
+                <div class="chatlog__message" data-message-id="1215500170000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">Postmortem draft is in the wiki. Blameless. Three action items: the post-deploy health assertion, the drain window documented in the runbook, and an alert when any target stays `unhealthy` for more than sixty seconds.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="gift_nitro_helper#0000" data-user-id="109988001122334455">Nitro Helper</span>
+                <span class="chatlog__timestamp">11-Mar-24 2:02 PM</span>
+                <div class="chatlog__message" data-message-id="1215500180000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">🎉 **DISCORD IS GIVING AWAY NITRO FOR 3 MONTHS** 🎉 Claim yours before the counter runs out → https://dlscord-nitro-gifts.ru/claim?id=88214 (only 200 left!!)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="priya.r#0000" data-user-id="352770001182146560">Priya</span>
+                <span class="chatlog__timestamp">11-Mar-24 2:03 PM</span>
+                <div class="chatlog__message" data-message-id="1215500190000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">That&#39;s a phishing domain. `dlscord` with a lowercase L. Reported and banned.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="nova_lyn#0000" data-user-id="512883104427294720">Nova</span>
+                <span class="chatlog__timestamp">11-Mar-24 2:05 PM</span>
+                <div class="chatlog__message" data-message-id="1215500200000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">i almost clicked it 😭 ty priya</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="sam_ito#0000" data-user-id="469802551660380160">Sam</span>
+                <span class="chatlog__timestamp">11-Mar-24 2:06 PM</span>
+                <div class="chatlog__message" data-message-id="1215500210000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">third one this week. they&#39;re scraping the member list from somewhere and the copy is getting better.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="mara_k#0000" data-user-id="288401992217591808">Mara</span>
+                <span class="chatlog__timestamp">11-Mar-24 2:08 PM</span>
+                <div class="chatlog__message" data-message-id="1215500220000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">Turn on 2FA and audit Authorized Apps. If anyone did click and typed credentials, rotate the password and any token that was reachable from that session today, not tomorrow.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="priya.r#0000" data-user-id="352770001182146560">Priya</span>
+                <span class="chatlog__timestamp">12-Mar-24 1:10 PM</span>
+                <div class="chatlog__message" data-message-id="1215500230000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">Question for the room: are we keeping the append-only event log for the billing service, or migrating to CRUD tables with an audit table alongside? I want a decision by Friday.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="mara_k#0000" data-user-id="288401992217591808">Mara</span>
+                <span class="chatlog__timestamp">12-Mar-24 1:14 PM</span>
+                <div class="chatlog__message" data-message-id="1215500240000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">Append-only, and I don&#39;t think it&#39;s close. Billing is the one place where &#39;what did we believe on the 3rd&#39; is a real question. Reconstructing that from an audit table means every read replays the history in application code anyway, except now the replay is untested and lives in five different call sites.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="priya.r#0000" data-user-id="352770001182146560">Priya</span>
+                <span class="chatlog__timestamp">12-Mar-24 1:17 PM</span>
+                <div class="chatlog__message" data-message-id="1215500250000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">The audit table can carry `valid_from` / `valid_to` and answer the same question with a range scan. Cheaper to operate, and every engineer here already knows SQL. The event log needs a projection pipeline that exactly two of us have touched, which is why the projection broke last month.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="mara_k#0000" data-user-id="288401992217591808">Mara</span>
+                <span class="chatlog__timestamp">12-Mar-24 1:20 PM</span>
+                <div class="chatlog__message" data-message-id="1215500260000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">Cheaper until the first backfill or the first schema change. Then you&#39;re writing migration scripts against history that&#39;s already been rewritten in place. The log makes that a replay, which is the one operation we can actually verify.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="priya.r#0000" data-user-id="352770001182146560">Priya</span>
+                <span class="chatlog__timestamp">12-Mar-24 1:22 PM</span>
+                <div class="chatlog__message" data-message-id="1215500270000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">Fair. But the projection bug silently dropped 4,000 invoices for six days and nobody noticed, because the projection has no schema and no constraints. An audit table would have refused the write outright. That failure mode is not hypothetical to me.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="mara_k#0000" data-user-id="288401992217591808">Mara</span>
+                <span class="chatlog__timestamp">12-Mar-24 1:24 PM</span>
+                <div class="chatlog__message" data-message-id="1215500280000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">That&#39;s a real point and I don&#39;t have a good answer for it. What if the projections get a typed contract and a row-count parity check against the log, and the check pages on-call? That addresses your failure mode without giving up replay.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="priya.r#0000" data-user-id="352770001182146560">Priya</span>
+                <span class="chatlog__timestamp">12-Mar-24 1:26 PM</span>
+                <div class="chatlog__message" data-message-id="1215500290000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">Then I&#39;ll write it up as: keep the log, add a typed projection contract, add the parity check. I can live with that if the check actually pages and isn&#39;t just a dashboard nobody opens.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="devonw#0000" data-user-id="391102887541155840">Devon</span>
+                <span class="chatlog__timestamp">12-Mar-24 1:29 PM</span>
+                <div class="chatlog__message" data-message-id="1215500300000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">genuinely learning a lot from this thread. can someone explain what a projection is in one sentence? i&#39;ve seen the word in the repo for months and just nodded along</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="mara_k#0000" data-user-id="288401992217591808">Mara</span>
+                <span class="chatlog__timestamp">12-Mar-24 1:31 PM</span>
+                <div class="chatlog__message" data-message-id="1215500310000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">It&#39;s a read model built by replaying events in order — a table shaped for queries instead of for writes. If it&#39;s wrong, you rebuild it from the log instead of repairing it in place. The tradeoff is that the rebuild has to be deterministic, which is exactly what Priya is asking us to enforce.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="devonw#0000" data-user-id="391102887541155840">Devon</span>
+                <span class="chatlog__timestamp">12-Mar-24 1:32 PM</span>
+                <div class="chatlog__message" data-message-id="1215500320000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">ok that&#39;s much less scary than i thought. thanks</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="kestrel#0000" data-user-id="447719903311802368">Kestrel</span>
+                <span class="chatlog__timestamp">12-Mar-24 1:35 PM</span>
+                <div class="chatlog__message" data-message-id="1215500330000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">we are two weeks from the compliance deadline and we&#39;re debating architecture in a discord channel. priya, you&#39;ve been &#39;deciding by friday&#39; for a month. either you own the decision or you don&#39;t. this is not a hard call.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="priya.r#0000" data-user-id="352770001182146560">Priya</span>
+                <span class="chatlog__timestamp">12-Mar-24 1:37 PM</span>
+                <div class="chatlog__message" data-message-id="1215500340000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">I said Friday because that&#39;s when the decision is due. Nothing about that is ambiguous, and the two of us just converged on an answer in fifteen minutes.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="kestrel#0000" data-user-id="447719903311802368">Kestrel</span>
+                <span class="chatlog__timestamp">12-Mar-24 1:38 PM</span>
+                <div class="chatlog__message" data-message-id="1215500350000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">it&#39;s ambiguous when nobody can tell whether you&#39;ve decided. this is why nothing ships here. i&#39;ve raised the same complaint three times and it goes nowhere, so frankly i&#39;ve stopped expecting it to.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="nova_lyn#0000" data-user-id="512883104427294720">Nova</span>
+                <span class="chatlog__timestamp">12-Mar-24 1:41 PM</span>
+                <div class="chatlog__message" data-message-id="1215500360000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">kestrel you ok? that was a lot for a tuesday 😅</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="kestrel#0000" data-user-id="447719903311802368">Kestrel</span>
+                <span class="chatlog__timestamp">12-Mar-24 1:43 PM</span>
+                <div class="chatlog__message" data-message-id="1215500370000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">I&#39;m fine. I&#39;m just the only one here who seems to care that we miss dates.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="sam_ito#0000" data-user-id="469802551660380160">Sam</span>
+                <span class="chatlog__timestamp">13-Mar-24 8:52 AM</span>
+                <div class="chatlog__message" data-message-id="1215500380000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">sorry for the radio silence yesterday. i&#39;ve been running on about three hours of sleep since the on-call rotation started and it&#39;s catching up with me</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="sam_ito#0000" data-user-id="469802551660380160">Sam</span>
+                <span class="chatlog__timestamp">13-Mar-24 8:54 AM</span>
+                <div class="chatlog__message" data-message-id="1215500390000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">honestly not sure how much longer i can keep doing this. some mornings i wake up and the idea of opening the laptop makes me feel physically sick, and it stopped being about the work a while ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="devonw#0000" data-user-id="391102887541155840">Devon</span>
+                <span class="chatlog__timestamp">13-Mar-24 9:01 AM</span>
+                <div class="chatlog__message" data-message-id="1215500400000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">that sounds really rough sam. is there anything i can take off your plate this week? i can own the on-call handoff doc if that helps at all</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="mara_k#0000" data-user-id="288401992217591808">Mara</span>
+                <span class="chatlog__timestamp">13-Mar-24 9:03 AM</span>
+                <div class="chatlog__message" data-message-id="1215500410000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">Seconding Devon. Also, the rotation is two people for a service that pages at 3am twice a week. That&#39;s a staffing problem, not a you problem. I&#39;ll raise it with Lena today whether or not you want me to.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="priya.r#0000" data-user-id="352770001182146560">Priya</span>
+                <span class="chatlog__timestamp">13-Mar-24 9:06 AM</span>
+                <div class="chatlog__message" data-message-id="1215500420000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">You can hand me the migration review. I have capacity Thursday and Friday.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="sam_ito#0000" data-user-id="469802551660380160">Sam</span>
+                <span class="chatlog__timestamp">13-Mar-24 9:08 AM</span>
+                <div class="chatlog__message" data-message-id="1215500430000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">thanks. i don&#39;t want to make it a whole thing. it&#39;s just been a long stretch</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="sam_ito#0000" data-user-id="469802551660380160">Sam</span>
+                <span class="chatlog__timestamp">13-Mar-24 9:11 AM</span>
+                <div class="chatlog__message" data-message-id="1215500440000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">some days it feels like the only thing i&#39;m good for is answering pages, and when it&#39;s quiet i don&#39;t know what i&#39;m for. anyway. sorry. ignore me</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="devonw#0000" data-user-id="391102887541155840">Devon</span>
+                <span class="chatlog__timestamp">13-Mar-24 9:14 AM</span>
+                <div class="chatlog__message" data-message-id="1215500450000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">not ignoring you. genuinely glad you said something.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="kestrel#0000" data-user-id="447719903311802368">Kestrel</span>
+                <span class="chatlog__timestamp">13-Mar-24 9:20 AM</span>
+                <div class="chatlog__message" data-message-id="1215500460000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">can we keep the channel on topic. if you need time off, take time off, but the rest of us still have deadlines.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="priya.r#0000" data-user-id="352770001182146560">Priya</span>
+                <span class="chatlog__timestamp">13-Mar-24 9:22 AM</span>
+                <div class="chatlog__message" data-message-id="1215500470000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">Kestrel. Not here.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="nova_lyn#0000" data-user-id="512883104427294720">Nova</span>
+                <span class="chatlog__timestamp">13-Mar-24 9:30 AM</span>
+                <div class="chatlog__message" data-message-id="1215500480000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">sam if you want to grab coffee off-channel this week i&#39;m around ☕ no agenda, we can talk about literally anything else</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="mara_k#0000" data-user-id="288401992217591808">Mara</span>
+                <span class="chatlog__timestamp">13-Mar-24 9:33 AM</span>
+                <div class="chatlog__message" data-message-id="1215500490000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">Sam — the assistance programme line is in the pinned message in #resources. It&#39;s free, it&#39;s outside the company, and nobody here sees whether you use it. No pressure either way. I&#39;m around too.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="sam_ito#0000" data-user-id="469802551660380160">Sam</span>
+                <span class="chatlog__timestamp">13-Mar-24 9:40 AM</span>
+                <div class="chatlog__message" data-message-id="1215500500000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">i&#39;ll look at the pinned thing. thanks everyone. i think i just needed to say it out loud to somebody who wasn&#39;t a status update</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="tinytools-bot#0000" data-user-id="1080019000000000001">tinytools</span>
+                <span class="chatlog__bot-tag">BOT</span>
+                <span class="chatlog__timestamp">13-Mar-24 10:02 AM</span>
+                <div class="chatlog__message" data-message-id="1215500510000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">**Deploy finished** — `web@5.2.0` → production. 37 checks passed, 0 failed. Commit `b410aa9` by devonw. Build 09:58 UTC. [view run](https://ci.nimbus.dev/runs/88304)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="tinytools-bot#0000" data-user-id="1080019000000000001">tinytools</span>
+                <span class="chatlog__bot-tag">BOT</span>
+                <span class="chatlog__timestamp">13-Mar-24 10:05 AM</span>
+                <div class="chatlog__message" data-message-id="1215500520000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">**Deploy finished** — `billing@1.9.7` → production. 51 checks passed, 0 failed. Commit `7d3f8e1` by priya.r. Build 10:01 UTC. [view run](https://ci.nimbus.dev/runs/88305)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="devonw#0000" data-user-id="391102887541155840">Devon</span>
+                <span class="chatlog__timestamp">13-Mar-24 10:20 AM</span>
+                <div class="chatlog__message" data-message-id="1215500530000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">small win: i wired the target-group assertion from mara&#39;s PR into the billing deploy too. first run caught an unhealthy target before it took any traffic 🎉</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="mara_k#0000" data-user-id="288401992217591808">Mara</span>
+                <span class="chatlog__timestamp">13-Mar-24 10:22 AM</span>
+                <div class="chatlog__message" data-message-id="1215500540000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">Nice. That&#39;s exactly the failure mode it was written for, and you found it on the second service rather than the fourth.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="priya.r#0000" data-user-id="352770001182146560">Priya</span>
+                <span class="chatlog__timestamp">13-Mar-24 10:25 AM</span>
+                <div class="chatlog__message" data-message-id="1215500550000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">Good.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="nova_lyn#0000" data-user-id="512883104427294720">Nova</span>
+                <span class="chatlog__timestamp">13-Mar-24 4:40 PM</span>
+                <div class="chatlog__message" data-message-id="1215500560000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">anyone else think it&#39;s wild that we spent a whole day arguing and the answer was &#39;add a check&#39; 😂</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="priya.r#0000" data-user-id="352770001182146560">Priya</span>
+                <span class="chatlog__timestamp">13-Mar-24 4:42 PM</span>
+                <div class="chatlog__message" data-message-id="1215500570000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">The check was the easy part. Agreeing on what it asserts took the day.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="sam_ito#0000" data-user-id="469802551660380160">Sam</span>
+                <span class="chatlog__timestamp">13-Mar-24 9:15 PM</span>
+                <div class="chatlog__message" data-message-id="1215500580000000000">
+                    <div class="chatlog__content chatlog__markdown">
+                        <span class="preserve-whitespace">update: took today off, slept eleven hours, went for a long walk with no phone. feeling more like a person. next week i&#39;ll pick the migration review back up with priya</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

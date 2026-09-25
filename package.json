@@ -1,0 +1,40 @@
+{
+  "name": "typesafe-profiler",
+  "version": "0.3.0",
+  "description": "Score chat logs across 35 psychological dimensions, estimate human vs machine, and route results under guardrail policies using the TypeSafe decision model",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "typesafe",
+    "jev",
+    "decision-model",
+    "psychometrics",
+    "profiling",
+    "bot-detection",
+    "discord",
+    "llm-guardrails"
+  ],
+  "bin": {
+    "typesafe-profiler": "dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit && tsc -p scripts/tsconfig.json",
+    "test": "tsc && node --test tests/",
+    "gen:orbit-assets": "tsx scripts/gen-orbit-assets.ts"
+  },
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

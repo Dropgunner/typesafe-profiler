@@ -1,0 +1,65 @@
+# ---------------------------------------------------------------------------
+# Allow-list.
+#
+# This working directory also holds unrelated checkouts, research dumps, and
+# scratch directories (see the end of this file). Instead of chasing them with
+# an ignore rule each, everything at the top level is ignored and the project's
+# own files are re-included below. Anything new that appears stays out of the
+# repository by default.
+# ---------------------------------------------------------------------------
+/*
+!/.agents/
+!/.env.example
+!/.github/
+!/.gitignore
+!/LICENSE
+!/README.md
+!/demo/
+!/docs/
+!/package.json
+!/package-lock.json
+!/plugin/
+!/psychologist/
+!/sample/
+!/scripts/
+!/src/
+!/tests/
+!/tsconfig.json
+
+# Dependencies and build output, ignored even inside the directories above.
+node_modules/
+dist/
+plugin/lib/
+*.tsbuildinfo
+
+# Caches and local package stores.
+.npm-cache/
+.pnpm-store/
+.cache/
+
+# Generated profiles and pattern stores (may contain personal data).
+profile-output/
+.bot-patterns.json
+
+# Secrets — never commit a real key. `.env.example` is the template and stays.
+.env
+.env.*
+!.env.example
+
+# OS and editor noise.
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+
+# ---------------------------------------------------------------------------
+# Not part of this project (also covered by the allow-list above).
+#
+# - `orbit/` is a separate Tauri desktop application with its own repository
+#   and history.
+# - `AGENT-NOTE-orbit-*.md` document that application, not this one.
+# - `bd-docs/`, `bd-docs-repo/`, `bd-research/`, `bd-source-repo/`,
+#   `betterdiscord/`, and the `bd-*.md` research write-ups are third-party
+#   BetterDiscord checkouts and notes used for unrelated research.
+# ---------------------------------------------------------------------------

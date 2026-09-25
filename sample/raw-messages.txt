@@ -1,0 +1,7 @@
+I think the biggest risk here is that we're overfitting to a single benchmark.
+
+Have we considered running the eval on a held-out set before shipping?
+
+The docs don't cover the retry semantics at all, which makes it hard to reason about what happens on failure.
+
+That said, the error messages are genuinely helpful when a call does fail, and I appreciate that the SDK retries on 429.

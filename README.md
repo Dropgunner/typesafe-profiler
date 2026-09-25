@@ -24,6 +24,7 @@ Turn a chat log into a structured read on the person behind it: **35 psychologic
 - [Integrations](#integrations)
 - [Development](#development)
 - [Caveats and responsible use](#caveats-and-responsible-use)
+- [License](#license)
 
 ## The concept
 
@@ -375,11 +376,11 @@ The report gives the decision, the severity, a per-hazard table (kind, value, ac
 
 ## Integrations
 
-**DeepSeek Harness plugin.** `plugin/` is a Harness bundle (`@deepseek-ai/dsh-typesafe-profiler`) that exposes this pipeline and the surrounding Jev-ecosystem tools — `typesafe_profile`, `psych_profile`, `bot_detect`, `guard_profile`, `guard_message`, `typesafe_classify`, `typesafe_score`, `typesafe_noul`, `typesafe_prune`, `typesafe_compact`, `typesafe_generate`, `pattern_flag`, `pattern_match` — as Harness tools. It imports the pipeline from `src/`, so there is one source of truth. See [plugin/README.md](plugin/README.md).
+**DeepSeek Harness plugin.** `plugin/` is a Harness bundle (`@deepseek-ai/dsh-typesafe-profiler`) that exposes this pipeline and the surrounding Jev-ecosystem tools — `typesafe_profile`, `psych_profile`, `bot_detect`, `guard_profile`, `guard_message`, `typesafe_classify`, `typesafe_score`, `typesafe_noul`, `typesafe_prune`, `typesafe_compact`, `typesafe_generate`, `pattern_flag`, `pattern_match` — as Harness tools. It imports the pipeline from `src/`, so there is one source of truth. Building it requires a DeepSeek Harness checkout, because its `@deepseek-ai/*` peer packages live there. See [plugin/README.md](plugin/README.md).
 
 **AI psychologist preset.** `psychologist/` turns the bot-detection persona into an interactive interviewer: the agent converses, collects the candidate's turns, runs `bot_detect` on the assembled transcript, and reports the verdict for human review. Copy the directory into a preset root (for example `~/.agent-presets/psychologist`) or point a configured root at it, then start a session with the `psychologist` preset. It composes `@deepseek-ai/dsh-persona` with the `@deepseek-ai/dsh-typesafe-profiler` bundle, which stays disabled without `TYPESAFE_API_KEY`.
 
-**Desktop UI (Orbit).** `orbit/` is a Tauri 2 desktop app with a Discord analysis mode: connect live with a Discord user token to browse servers, channels, members, and messages, or import a DiscordChatExporter export (JSON / HTML / plaintext), then run the profile, bot-detection, and guardrails pipelines, flag users and reusable patterns, and ask DeepSeek to interpret a report. The Rust backend calls TypeSafe directly, with the questions and policies generated from `src/` into `orbit/src-tauri/assets/profiler.json` by `npm run gen:orbit-assets`. The same UI also runs in a browser — **Open in browser** or `ORBIT_WEB=1` serves the frontend over loopback and bridges `/api/invoke` to the same Rust commands behind a per-run token. See [orbit/README.md](orbit/README.md).
+**Desktop UI (Orbit).** Orbit is a separate Tauri 2 desktop application with a Discord analysis mode: connect live with a Discord user token to browse servers, channels, members, and messages, or import a DiscordChatExporter export (JSON / HTML / plaintext), then run the profile, bot-detection, and guardrails pipelines, flag users and reusable patterns, and ask DeepSeek to interpret a report. Its Rust backend calls TypeSafe directly, using the questions and policies generated from this repo's `src/` by `npm run gen:orbit-assets -- /path/to/orbit`, so both front ends send identical questions. The same UI also runs in a browser — **Open in browser** or `ORBIT_WEB=1` serves the frontend over loopback and bridges `/api/invoke` to the same Rust commands behind a per-run token. Orbit is developed in its own repository and is not vendored here.
 
 ## Development
 
@@ -400,6 +401,9 @@ npm run build       # tsc -> dist/
 | `src/schema.ts`, `src/aggregate.ts`, `src/report.ts` | Validation, aggregation, and rendering. |
 | `src/secrets.ts` | API key resolution and Keychain storage. |
 | `scripts/gen-orbit-assets.ts` | Generates Orbit's profiler assets from `src/`. |
+| `docs/notes/` | Design notes: why the plugin bundle, bot battery, and pattern pipeline are built the way they are. |
+
+Contributions are welcome. Run `npm run typecheck` and `npm test` before opening a pull request; CI runs both on Node 20, 22, and 24, plus a build and a keyless smoke test of the compiled CLI.
 
 ## Caveats and responsible use
 
@@ -409,3 +413,7 @@ npm run build       # tsc -> dist/
 - Bot detection is adversarial and heuristic. A sophisticated actor can fake any single signal, a human can trip some, and the middle band is explicitly inconclusive — it is not proof of identity.
 - Guardrail decisions are heuristic routing, not a verdict. A human owns the final call, and `self_harm` routes to support rather than a block.
 - You are responsible for the logs you process and for the people in them. See [Privacy](#privacy) and, before sharing a dumped request, the warning in [Debugging a wrong answer](#debugging-a-wrong-answer).
+
+## License
+
+[MIT](LICENSE). The bundled sample data in `sample/` is synthetic, generated by `scripts/gen-discord-guild.mjs`; no real Discord messages, accounts, or identifiers are included.

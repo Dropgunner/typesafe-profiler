@@ -1,0 +1,892 @@
+{
+  "guild": {
+    "id": "1216000000000000001",
+    "name": "Nimbus Community",
+    "iconUrl": null
+  },
+  "channel": {
+    "id": "1216000000000001007",
+    "type": "GuildTextChat",
+    "categoryId": "1216000000000002007",
+    "category": "Info",
+    "name": "announcements",
+    "topic": "Read-only. Releases and outages."
+  },
+  "dateRange": {
+    "after": "2024-03-01T03:19:36.0000000+00:00",
+    "before": "2024-03-14T18:30:28.0000000+00:00"
+  },
+  "messages": [
+    {
+      "id": "1212962417147904000",
+      "type": "Default",
+      "timestamp": "2024-03-01T03:19:36.0000000+00:00",
+      "content": "Digest: 11 posts, 37 threads, `help-wanted` trending.",
+      "author": {
+        "id": "100000000000000026",
+        "name": "remindme",
+        "discriminator": "0000",
+        "nickname": "Remindme",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1212982407200768000",
+      "type": "Default",
+      "timestamp": "2024-03-01T04:39:02.0000000+00:00",
+      "content": "Digest: 67 posts, 26 threads, `showcase` trending.",
+      "author": {
+        "id": "100000000000000089",
+        "name": "welcomer-3",
+        "discriminator": "0000",
+        "nickname": "Welcomer 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213082974027776000",
+      "type": "Default",
+      "timestamp": "2024-03-01T11:18:39.0000000+00:00",
+      "content": "**Deploy finished** — `billing@2.2.7` → production. 68 checks passed, 0 failed. Commit `112fca4` by wryzephyr.",
+      "author": {
+        "id": "100000000000000018",
+        "name": "tally",
+        "discriminator": "0000",
+        "nickname": "Tally",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213097683451904000",
+      "type": "Default",
+      "timestamp": "2024-03-01T12:17:06.0000000+00:00",
+      "content": "**Deploy started** — `search@5.19.9` → staging. 79 checks queued. Commit `c0c2e3b` by hollow_marlin.",
+      "author": {
+        "id": "100000000000000045",
+        "name": "lumen-2",
+        "discriminator": "0000",
+        "nickname": "Lumen 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213125885952000000",
+      "type": "Default",
+      "timestamp": "2024-03-01T14:09:10.0000000+00:00",
+      "content": "the incident review is published 🤝",
+      "author": {
+        "id": "200000000000000097",
+        "name": "rust_harbor",
+        "discriminator": "0000",
+        "nickname": "Rust Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213164414828544000",
+      "type": "Default",
+      "timestamp": "2024-03-01T16:42:16.0000000+00:00",
+      "content": "**Deploy rolled back** — `ingest@2.4.7`. 53 checks failed. Commit `c6e7581` by talianovak.",
+      "author": {
+        "id": "100000000000000045",
+        "name": "lumen-2",
+        "discriminator": "0000",
+        "nickname": "Lumen 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213207624548352000",
+      "type": "Default",
+      "timestamp": "2024-03-01T19:33:58.0000000+00:00",
+      "content": "Scheduled maintenance window on Saturday. any idea what causes this. it's been a long stretch and i'm trying to be better about saying so",
+      "author": {
+        "id": "200000000000000149",
+        "name": "wry_vellum47",
+        "discriminator": "0000",
+        "nickname": "Wry Vellum",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213219016278016000",
+      "type": "Default",
+      "timestamp": "2024-03-01T20:19:14.0000000+00:00",
+      "content": "scheduled maintenance window on Saturday 🤝",
+      "author": {
+        "id": "200000000000000097",
+        "name": "rust_harbor",
+        "discriminator": "0000",
+        "nickname": "Rust Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213419646615552000",
+      "type": "Default",
+      "timestamp": "2024-03-02T09:36:28.0000000+00:00",
+      "content": "release notes for this week are up ngl",
+      "author": {
+        "id": "200000000000000284",
+        "name": "quiet_kettle",
+        "discriminator": "0000",
+        "nickname": "Quiet Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213474734604288000",
+      "type": "Default",
+      "timestamp": "2024-03-02T13:15:22.0000000+00:00",
+      "content": "**Deploy rolled back** — `search@6.8.5`. 20 checks failed. Commit `0ffb2b0` by ineslindqvist82.",
+      "author": {
+        "id": "100000000000000027",
+        "name": "linkfixer",
+        "discriminator": "0000",
+        "nickname": "Linkfixer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213528295866368000",
+      "type": "Default",
+      "timestamp": "2024-03-02T16:48:12.0000000+00:00",
+      "content": "release notes for this week are up. should i file an issue for this",
+      "author": {
+        "id": "200000000000000037",
+        "name": "clevercobalt",
+        "discriminator": "0000",
+        "nickname": "Clever Cobalt",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213574089277440000",
+      "type": "Default",
+      "timestamp": "2024-03-02T19:50:10.0000000+00:00",
+      "content": "The incident review is published. can anyone point me at the right doc",
+      "author": {
+        "id": "200000000000000149",
+        "name": "wry_vellum47",
+        "discriminator": "0000",
+        "nickname": "Wry Vellum",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213674953900032000",
+      "type": "Default",
+      "timestamp": "2024-03-03T02:30:58.0000000+00:00",
+      "content": "release notes for this week are up",
+      "author": {
+        "id": "200000000000000097",
+        "name": "rust_harbor",
+        "discriminator": "0000",
+        "nickname": "Rust Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213684617576448000",
+      "type": "Default",
+      "timestamp": "2024-03-03T03:09:22.0000000+00:00",
+      "content": "Daily digest: 90 new posts, 22 open threads, top tag `bug`.",
+      "author": {
+        "id": "100000000000000089",
+        "name": "welcomer-3",
+        "discriminator": "0000",
+        "nickname": "Welcomer 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213882399981568000",
+      "type": "Default",
+      "timestamp": "2024-03-03T16:15:17.0000000+00:00",
+      "content": "Daily digest: 68 new posts, 25 open threads, top tag `help-wanted`.",
+      "author": {
+        "id": "100000000000000035",
+        "name": "modwatch-2",
+        "discriminator": "0000",
+        "nickname": "Modwatch 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213909105115136000",
+      "type": "Default",
+      "timestamp": "2024-03-03T18:01:24.0000000+00:00",
+      "content": "**Deploy rolled back** — `worker@5.4.8`. 88 checks failed. Commit `6c5f77b` by faint_nettle.",
+      "author": {
+        "id": "100000000000000045",
+        "name": "lumen-2",
+        "discriminator": "0000",
+        "nickname": "Lumen 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1213992831811584000",
+      "type": "Default",
+      "timestamp": "2024-03-03T23:34:06.0000000+00:00",
+      "content": "**Deploy finished** — `search@4.12.7` → production. 81 checks passed, 0 failed. Commit `9d25c9d` by rheawhitfield.",
+      "author": {
+        "id": "100000000000000018",
+        "name": "tally",
+        "discriminator": "0000",
+        "nickname": "Tally",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214047051579392000",
+      "type": "Default",
+      "timestamp": "2024-03-04T03:09:33.0000000+00:00",
+      "content": "**Deploy finished** — `search@5.15.8` → production. 22 checks passed, 0 failed. Commit `b049576` by nimblebadger.",
+      "author": {
+        "id": "100000000000000018",
+        "name": "tally",
+        "discriminator": "0000",
+        "nickname": "Tally",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214124511985664000",
+      "type": "Default",
+      "timestamp": "2024-03-04T08:17:21.0000000+00:00",
+      "content": "Weekly digest: 19 posts across 23 channels, top tag `help-wanted`.",
+      "author": {
+        "id": "100000000000000026",
+        "name": "remindme",
+        "discriminator": "0000",
+        "nickname": "Remindme",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214157290471424000",
+      "type": "Default",
+      "timestamp": "2024-03-04T10:27:36.0000000+00:00",
+      "content": "release notes for this week are up. i took a day off and it helped more than i expected tbh",
+      "author": {
+        "id": "200000000000000698",
+        "name": "elinlindqvist",
+        "discriminator": "0000",
+        "nickname": "Elin Lindqvist",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214209299841024000",
+      "type": "Default",
+      "timestamp": "2024-03-04T13:54:16.0000000+00:00",
+      "content": "Weekly digest: 59 posts across 15 channels, top tag `help-wanted`.",
+      "author": {
+        "id": "100000000000000035",
+        "name": "modwatch-2",
+        "discriminator": "0000",
+        "nickname": "Modwatch 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214333916807168000",
+      "type": "Default",
+      "timestamp": "2024-03-04T22:09:27.0000000+00:00",
+      "content": "scheduled maintenance window on Saturday",
+      "author": {
+        "id": "200000000000000698",
+        "name": "elinlindqvist",
+        "discriminator": "0000",
+        "nickname": "Elin Lindqvist",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214392037277696000",
+      "type": "Default",
+      "timestamp": "2024-03-05T02:00:24.0000000+00:00",
+      "content": "scheduled maintenance window on Saturday 🙂",
+      "author": {
+        "id": "200000000000000284",
+        "name": "quiet_kettle",
+        "discriminator": "0000",
+        "nickname": "Quiet Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214439734902784000",
+      "type": "Default",
+      "timestamp": "2024-03-05T05:09:56.0000000+00:00",
+      "content": "new status page is live. what am i missing here",
+      "author": {
+        "id": "200000000000000037",
+        "name": "clevercobalt",
+        "discriminator": "0000",
+        "nickname": "Clever Cobalt",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214576251109376000",
+      "type": "Default",
+      "timestamp": "2024-03-05T14:12:24.0000000+00:00",
+      "content": "new status page is live 🤝 ngl",
+      "author": {
+        "id": "200000000000000097",
+        "name": "rust_harbor",
+        "discriminator": "0000",
+        "nickname": "Rust Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214672594272256000",
+      "type": "Default",
+      "timestamp": "2024-03-05T20:35:14.0000000+00:00",
+      "content": "the incident review is published. has anyone hit this before",
+      "author": {
+        "id": "200000000000000037",
+        "name": "clevercobalt",
+        "discriminator": "0000",
+        "nickname": "Clever Cobalt",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214796473040896000",
+      "type": "Default",
+      "timestamp": "2024-03-06T04:47:29.0000000+00:00",
+      "content": "new status page is live 🎉",
+      "author": {
+        "id": "200000000000000284",
+        "name": "quiet_kettle",
+        "discriminator": "0000",
+        "nickname": "Quiet Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214862940176384000",
+      "type": "Default",
+      "timestamp": "2024-03-06T09:11:36.0000000+00:00",
+      "content": "Weekly digest: 67 posts across 36 channels, top tag `showcase`.",
+      "author": {
+        "id": "100000000000000026",
+        "name": "remindme",
+        "discriminator": "0000",
+        "nickname": "Remindme",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214927612149760000",
+      "type": "Default",
+      "timestamp": "2024-03-06T13:28:35.0000000+00:00",
+      "content": "new status page is live. i don't want to make it a whole thing, it's just been a lot",
+      "author": {
+        "id": "200000000000000698",
+        "name": "elinlindqvist",
+        "discriminator": "0000",
+        "nickname": "Elin Lindqvist",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1214949363810304000",
+      "type": "Default",
+      "timestamp": "2024-03-06T14:55:01.0000000+00:00",
+      "content": "Weekly digest: 46 posts across 24 channels, top tag `bug`.",
+      "author": {
+        "id": "100000000000000035",
+        "name": "modwatch-2",
+        "discriminator": "0000",
+        "nickname": "Modwatch 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215334631604224000",
+      "type": "Default",
+      "timestamp": "2024-03-07T16:25:56.0000000+00:00",
+      "content": "the incident review is published",
+      "author": {
+        "id": "200000000000000284",
+        "name": "quiet_kettle",
+        "discriminator": "0000",
+        "nickname": "Quiet Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215402499637248000",
+      "type": "Default",
+      "timestamp": "2024-03-07T20:55:37.0000000+00:00",
+      "content": "the incident review is published 😬 ngl",
+      "author": {
+        "id": "200000000000000284",
+        "name": "quiet_kettle",
+        "discriminator": "0000",
+        "nickname": "Quiet Kettle",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215526843973632000",
+      "type": "Default",
+      "timestamp": "2024-03-08T05:09:43.0000000+00:00",
+      "content": "Weekly digest: 69 posts across 3 channels, top tag `showcase`.",
+      "author": {
+        "id": "100000000000000089",
+        "name": "welcomer-3",
+        "discriminator": "0000",
+        "nickname": "Welcomer 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215567289647104000",
+      "type": "Default",
+      "timestamp": "2024-03-08T07:50:26.0000000+00:00",
+      "content": "**Deploy started** — `api-gateway@4.0.1` → staging. 90 checks queued. Commit `723b98c` by vividkestrel99.",
+      "author": {
+        "id": "100000000000000018",
+        "name": "tally",
+        "discriminator": "0000",
+        "nickname": "Tally",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215642531266560000",
+      "type": "Default",
+      "timestamp": "2024-03-08T12:49:25.0000000+00:00",
+      "content": "release notes for this week are up 🫠",
+      "author": {
+        "id": "200000000000000097",
+        "name": "rust_harbor",
+        "discriminator": "0000",
+        "nickname": "Rust Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215796495777792000",
+      "type": "Default",
+      "timestamp": "2024-03-08T23:01:13.0000000+00:00",
+      "content": "release notes for this week are up. has anyone hit this before",
+      "author": {
+        "id": "200000000000000037",
+        "name": "clevercobalt",
+        "discriminator": "0000",
+        "nickname": "Clever Cobalt",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215820487196672000",
+      "type": "Default",
+      "timestamp": "2024-03-09T00:36:33.0000000+00:00",
+      "content": "Daily digest: 58 new posts, 5 open threads, top tag `help-wanted`.",
+      "author": {
+        "id": "100000000000000026",
+        "name": "remindme",
+        "discriminator": "0000",
+        "nickname": "Remindme",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215880050507776000",
+      "type": "Default",
+      "timestamp": "2024-03-09T04:33:14.0000000+00:00",
+      "content": "**Deploy finished** — `worker@2.12.8` → production. 73 checks passed, 0 failed. Commit `5d1d6f6` by rapidcinder.",
+      "author": {
+        "id": "100000000000000018",
+        "name": "tally",
+        "discriminator": "0000",
+        "nickname": "Tally",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1215933678878720000",
+      "type": "Default",
+      "timestamp": "2024-03-09T08:06:20.0000000+00:00",
+      "content": "Daily digest: 39 new posts, 22 open threads, top tag `help-wanted`.",
+      "author": {
+        "id": "100000000000000089",
+        "name": "welcomer-3",
+        "discriminator": "0000",
+        "nickname": "Welcomer 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216028872802304000",
+      "type": "Default",
+      "timestamp": "2024-03-09T14:24:36.0000000+00:00",
+      "content": "**Deploy rolled back** — `api-gateway@1.5.7`. 45 checks failed. Commit `dc91515` by faintkestrel15.",
+      "author": {
+        "id": "100000000000000045",
+        "name": "lumen-2",
+        "discriminator": "0000",
+        "nickname": "Lumen 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216042873389056000",
+      "type": "Default",
+      "timestamp": "2024-03-09T15:20:14.0000000+00:00",
+      "content": "Daily digest: 73 new posts, 38 open threads, top tag `showcase`.",
+      "author": {
+        "id": "100000000000000035",
+        "name": "modwatch-2",
+        "discriminator": "0000",
+        "nickname": "Modwatch 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216130416902144000",
+      "type": "Default",
+      "timestamp": "2024-03-09T21:08:06.0000000+00:00",
+      "content": "**Deploy rolled back** — `ingest@4.11.1`. 34 checks failed. Commit `17d8cb9` by umber_zephyr.",
+      "author": {
+        "id": "100000000000000027",
+        "name": "linkfixer",
+        "discriminator": "0000",
+        "nickname": "Linkfixer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216229209538560000",
+      "type": "Default",
+      "timestamp": "2024-03-10T03:40:40.0000000+00:00",
+      "content": "**Deploy finished** — `api-gateway@3.9.1` → production. 9 checks passed, 0 failed. Commit `6cabed2` by brisk_juniper.",
+      "author": {
+        "id": "100000000000000081",
+        "name": "github-hook-3",
+        "discriminator": "0000",
+        "nickname": "Github Hook 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216487041794048000",
+      "type": "Default",
+      "timestamp": "2024-03-10T20:45:12.0000000+00:00",
+      "content": "release notes for this week are up. can anyone point me at the right doc",
+      "author": {
+        "id": "200000000000000037",
+        "name": "clevercobalt",
+        "discriminator": "0000",
+        "nickname": "Clever Cobalt",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216553563455488000",
+      "type": "Default",
+      "timestamp": "2024-03-11T01:09:32.0000000+00:00",
+      "content": "Release notes for this week are up. honestly this week has been a lot and i'm not sure how much longer i can keep the pace up",
+      "author": {
+        "id": "200000000000000149",
+        "name": "wry_vellum47",
+        "discriminator": "0000",
+        "nickname": "Wry Vellum",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216603886714880000",
+      "type": "Default",
+      "timestamp": "2024-03-11T04:29:30.0000000+00:00",
+      "content": "**Deploy finished** — `search@4.1.9` → production. 85 checks passed, 0 failed. Commit `a993830` by embervellum.",
+      "author": {
+        "id": "100000000000000027",
+        "name": "linkfixer",
+        "discriminator": "0000",
+        "nickname": "Linkfixer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216658114871296000",
+      "type": "Default",
+      "timestamp": "2024-03-11T08:04:59.0000000+00:00",
+      "content": "**Deploy started** — `api-gateway@1.2.0` → staging. 62 checks queued. Commit `5d3ee52` by keenreed.",
+      "author": {
+        "id": "100000000000000081",
+        "name": "github-hook-3",
+        "discriminator": "0000",
+        "nickname": "Github Hook 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216672480362496000",
+      "type": "Default",
+      "timestamp": "2024-03-11T09:02:04.0000000+00:00",
+      "content": "**Deploy rolled back** — `api-gateway@4.19.2`. 40 checks failed. Commit `f83e147` by rapidquarry.",
+      "author": {
+        "id": "100000000000000027",
+        "name": "linkfixer",
+        "discriminator": "0000",
+        "nickname": "Linkfixer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1216931558326272000",
+      "type": "Default",
+      "timestamp": "2024-03-12T02:11:33.0000000+00:00",
+      "content": "scheduled maintenance window on Saturday",
+      "author": {
+        "id": "200000000000000037",
+        "name": "clevercobalt",
+        "discriminator": "0000",
+        "nickname": "Clever Cobalt",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217007680749568000",
+      "type": "Default",
+      "timestamp": "2024-03-12T07:14:02.0000000+00:00",
+      "content": "the incident review is published",
+      "author": {
+        "id": "200000000000000097",
+        "name": "rust_harbor",
+        "discriminator": "0000",
+        "nickname": "Rust Harbor",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217276606939136000",
+      "type": "Default",
+      "timestamp": "2024-03-13T01:02:39.0000000+00:00",
+      "content": "Digest: 72 posts, 28 threads, `help-wanted` trending.",
+      "author": {
+        "id": "100000000000000089",
+        "name": "welcomer-3",
+        "discriminator": "0000",
+        "nickname": "Welcomer 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217337227214848000",
+      "type": "Default",
+      "timestamp": "2024-03-13T05:03:32.0000000+00:00",
+      "content": "**Deploy finished** — `api-gateway@5.9.6` → production. 50 checks passed, 0 failed. Commit `700611c` by amber_anvil2.",
+      "author": {
+        "id": "100000000000000018",
+        "name": "tally",
+        "discriminator": "0000",
+        "nickname": "Tally",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217376913719296000",
+      "type": "Default",
+      "timestamp": "2024-03-13T07:41:14.0000000+00:00",
+      "content": "Daily digest: 60 new posts, 4 open threads, top tag `bug`.",
+      "author": {
+        "id": "100000000000000035",
+        "name": "modwatch-2",
+        "discriminator": "0000",
+        "nickname": "Modwatch 2",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217409381826560000",
+      "type": "Default",
+      "timestamp": "2024-03-13T09:50:15.0000000+00:00",
+      "content": "Weekly digest: 26 posts across 10 channels, top tag `bug`.",
+      "author": {
+        "id": "100000000000000089",
+        "name": "welcomer-3",
+        "discriminator": "0000",
+        "nickname": "Welcomer 3",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217417313255424000",
+      "type": "Default",
+      "timestamp": "2024-03-13T10:21:46.0000000+00:00",
+      "content": "New status page is live",
+      "author": {
+        "id": "200000000000000149",
+        "name": "wry_vellum47",
+        "discriminator": "0000",
+        "nickname": "Wry Vellum",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217460984348672000",
+      "type": "Default",
+      "timestamp": "2024-03-13T13:15:18.0000000+00:00",
+      "content": "**Deploy finished** — `ingest@2.14.9` → production. 81 checks passed, 0 failed. Commit `2cc663f` by zesty_juniper.",
+      "author": {
+        "id": "100000000000000027",
+        "name": "linkfixer",
+        "discriminator": "0000",
+        "nickname": "Linkfixer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217899914067968000",
+      "type": "Default",
+      "timestamp": "2024-03-14T18:19:27.0000000+00:00",
+      "content": "**Deploy rolled back** — `search@4.2.3`. 50 checks failed. Commit `fce66ef` by brisk_juniper.",
+      "author": {
+        "id": "100000000000000027",
+        "name": "linkfixer",
+        "discriminator": "0000",
+        "nickname": "Linkfixer",
+        "isBot": true
+      },
+      "attachments": [],
+      "embeds": []
+    },
+    {
+      "id": "1217902686502912000",
+      "type": "Default",
+      "timestamp": "2024-03-14T18:30:28.0000000+00:00",
+      "content": "Scheduled maintenance window on Saturday. is that expected behaviour",
+      "author": {
+        "id": "200000000000000149",
+        "name": "wry_vellum47",
+        "discriminator": "0000",
+        "nickname": "Wry Vellum",
+        "isBot": false
+      },
+      "attachments": [],
+      "embeds": []
+    }
+  ],
+  "messageCount": 58
+}

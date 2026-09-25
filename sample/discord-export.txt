@@ -1,0 +1,5 @@
+[2024-01-03 10:02:11] alice#1234: I keep getting a 500 error when I try to sync my Stripe account. Logs say "invalid_grant" but the token is fresh.
+[2024-01-03 10:04:05] alice#1234: Actually wait, I just realized I rotated the client secret last week and forgot to update the env file. Let me try that.
+[2024-01-03 10:06:44] alice#1234: Yep, that fixed it. Updating the env var and restarting the worker cleared the error. Leaving this here in case someone else hits it.
+[2024-01-03 11:15:30] alice#1234: hey can you help me figure out why the deploy keeps timing out?? this is so annoying
+[2024-01-03 11:17:02] alice#1234: Actually nvm, looks like the DB migration was stuck. Killed it and reran, everything is green now. Thanks anyway!

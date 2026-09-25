@@ -1,0 +1,3 @@
+name: AI Psychologist
+description: Interviews a conversation partner and estimates human-vs-machine with the analogue bot-detection battery (bot_detect).
+order: 2
